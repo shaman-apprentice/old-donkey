@@ -1,0 +1,5 @@
+flexDirection: column/row
+justifyContent: for primary axis (value of flexDirection): center, flex-start, flex-end, space-around, space-between 
+alignItems: for other axis: stretch, center, flex-start, and flex-end
+alignSelf: overwrite alignItems: auto, stretch, center, flex-start, and flex-end
+flexWrap: wrap, nowrap
