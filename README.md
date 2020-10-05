@@ -1,6 +1,6 @@
 # old-donkey
 
-![Old monkey Benjamin](https://en.wikipedia.org/wiki/Benjamin_(Animal_Farm)#/media/File:Donkey_clipart_01.svg)
+![Old monkey Benjamin](./Donkey_clipart.png)
 
 > Only old Benjamin professed to remember every detail of his long life [...]
 
