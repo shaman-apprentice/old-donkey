@@ -6,4 +6,4 @@ Policy definition := condition + effect
 Policy initiative := collection of policy definitions (which can be assigned all at once)
 
 Policy definitions can be assigned to resources, subscriptions or management groups
-![management group img](management-groups-tree.png)
+![img/management group img](management-groups-tree.png)
