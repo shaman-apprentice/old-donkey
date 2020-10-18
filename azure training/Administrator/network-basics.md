@@ -43,3 +43,19 @@ IPv4 address := network + host, e.g. 192.168.0.1 (host is .1)
 <br/><br/>
 - **Azure DNS** - to route your dns (e.g. my.company.com) to an Azure Resource
 - **Azure Virtual Network** - build network with subnetting based on IPs
+
+### Server models
+- Request-response := E.g. classical web architecture
+- Peer-to-peer (P2P) := Each node is potential server and client for each other
+- Publish-subscribe := E.g. RSS Feed
+
+### Firewall types
+- Application-layer
+- Packet filtering
+- Circuit-level (before opening of connection checks like date)
+- Proxy server (can also cache data, or modify, ...)
+
+### Azure network security tools
+- Network Security Group (NSG) := filters traffic for virtual network
+- Azure Firewall
+- VPN Gateway
