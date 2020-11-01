@@ -19,8 +19,6 @@
 - RBAC scrope levels:
 ![RBAC scrope levels](./img/rbac-scope-levels.png)
 
-## TODO integrate custom app with application registration
-
 ## RBAC
 ### Role definition
 ```js
@@ -43,3 +41,18 @@
 
 ### Role assignment
 Assigns / glues a role definition to a security principal (e.g. an user, a group, an application, ...) and a scope (e.g. a resource group or a VM)
+
+### Azure AD B2C example
+https://docs.microsoft.com/en-us/azure/active-directory-b2c/tutorial-create-tenant
+
+- create Azure AD B2C tenant
+- link created B2C tenant to "normal" tenant / subscription (will be contained in a resource group)
+- register application in created B2C tenant
+  - Redirect URI -> your website (must be _https_ or _localhost_)
+- create user flow
+  - sign-up and sign-in flow: creates an account in B2C tenant
+    - claims can be added, which will be returned in generated token, e.g. surname
+  - edit profile flow
+  - password reset flow
+- Optional: Add other identity providers like Facebook or GitHub
+- Integrate e.g. via MSAL (Microsoft Authentication Library) in your website, to verify user (returns token with claims)
