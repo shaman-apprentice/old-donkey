@@ -4,6 +4,7 @@
 ### Federated Web Authentication
 ![Web single sign-on](./img/Federated%20Web%20Authentication.PNG)
 
+- Azure AD := IdaaS (Identity Provider)
 - Azure AD B2C := App integration
 - Azure AD B2B := Invite to tenant (via Mail)
 - Switch directory in Portal -> change Active Directory
