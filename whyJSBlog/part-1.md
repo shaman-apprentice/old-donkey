@@ -36,7 +36,8 @@ To put it in a nutshell, JavaScript needed some circles to evolve from its early
 
 After this exhausting journey about JavaScript's past, allow me to finish with two refreshing quotes:
 
-1. JavaScript founder Eich likes to finish his talks with the following slide, stating that JavaScript so far has mastered every obstacle and probably will continue to do so: (todo)<sup>[6](#References)</sup>
+1. JavaScript founder Eich likes to finish his talks with the following slide, stating that JavaScript so far has mastered every obstacle and probably will continue to do so:<sup>[6](#References)</sup>
+    > ![always-bet-on-JS](always-bet-on-JS.png)
 2. Docker co-founder Solomon Hykes twittered in March 2019:
     > If WASM+WASI existed in 2008, we wouldn't have needed to created Docker. That's how important it is.<sup>[7](#References)</sup>
 
@@ -48,5 +49,5 @@ After this exhausting journey about JavaScript's past, allow me to finish with t
 3. Brendan Eich in interview “The A–Z of Programming Languages: JavaScript,” Computerworld, July 30, 2008
 4. "LEARNING Node.js" snd edition by Marc Wandschneider 2017, page 2 ff
 5. https://www.w3.org/2019/12/pressrelease-wasm-rec.html.en
-6. 
+6. Brendan Eich at dotJS conference 2017
 7. https://twitter.com/solomonstre/status/1111004913222324225
