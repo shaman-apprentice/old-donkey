@@ -1,11 +1,11 @@
 # Part 2: Why JavaScript is definitely a cool thing
 
-According to State of the Developer Nation survey<sup>[1](#References)</sup> JavaScript (including TypeScript) is the most popular programming language by far. This coincides with results from Stack Overflow's 2020<sup>[2](#References)</sup> survey that:
+According to State of the Developer Nation survey<sup>[1](#References)</sup> JavaScript (including TypeScript) is the most popular programming language by far. This coincides with results from Stack Overflow's 2020 survey<sup>[2](#References)</sup> that
 - JavaScript is the most used programming language and TypeScript is in the top 10.
 - TypeScript is the second most loved programming language and JavaScript is in the top 10.
 - Node.js is at the top of used miscellaneous frameworks, libraries and tools.
 
-A further survey commissioned to an independent market research firm by Node.js<sup>[3](#References)</sup> concludes that Node.js has:
+A further survey commissioned to an independent market research firm by Node.js<sup>[3](#References)</sup> concludes that Node.js has
 - increased developer productivity by 68%.
 - reduced development costs by 56%.
 - increased application performance by 48% and uptime by 24%.
