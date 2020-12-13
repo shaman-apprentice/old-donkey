@@ -14,20 +14,16 @@ A further survey commissioned to an independent market research firm by Node.js<
 
 ## JavaScript is cool for businesses and developers
 
-Before reasoning about advantages of JavaScript's ecosystem, lets think about our goals, we want to achieve. At first I thought about splitting the goals into two parts:
-1. **Why JavaScript a cool thing for businesses**
-2. **Why JavaScript is a cool thing for me as developer by hearth**
-
-But thinking about it made me realise, that it comes down to the same three points:
+Before reasoning about advantages of JavaScript's ecosystem, lets think about our goals. At first I thought about splitting the goals into two parts: **Why JavaScript a cool thing for businesses** and **Why JavaScript is a cool thing for me as developer by hearth**. But both perspectives come somehow down to the same three points:
 - **We want to develope as fast as possible:**
     - That reduces business' time to market, which enables creation of revenue earlier. But even more important it includes and binds customers earlier in today's highly competitive software market.
     - As a developer by hearth this makes me feel productive and good.
 - **We want to get customer feedback as early and as often as possible:**
-    - For the business it reduces chances of developing something, what the user are not going to like. And if users are not liking it, they will also likely not pay for it... 
+    - For the business it reduces chances of developing something, what the user are not going to need or like. And if users are not liking it, they will also likely not pay for it... 
     - As a developer by hearth early customer feedback improves my software design. This might sound surprising at first. But it forces me to develop and build smaller parts, so I can present them to the customer. Smaller software parts are in general a good thing. It also reduces the chance of unexpected new requirements short before deadlines, which don't fit into current software design, but have to be implemented quickly.
 - **We want to be confident in the stability of our built software:**
     - As a business I don't want to alienate customers.
-    - As a developer I want to develop new features and not to fix bugs.
+    - As a developer I want to develop new features and not spent all my time with fixing bugs.
 
 So how does JavaScript's ecosystem support those goals?
 - [NPM](https://www.npmjs.com/) has the most amount of packages.<sup>[4](#References)</sup> Each package I have to not develope myself obviously increases development speed. It also reduces chances for bugs. Many of those packages are used and therefore also tested by a huge number of developers.
@@ -39,11 +35,11 @@ So how does JavaScript's ecosystem support those goals?
     - JavaScript and TypeScript are awesome for Unit Tests. There are many things which make Unit Testing hard like mocking. Of course the first goal should be to improve design, so that writing Unit Tests loses its pain<sup>[5](#References)</sup>. But specially in legacy projects this can be a long and exhausting journey. In JavaScript's ecosystem it is easy to mock objects and functions. Even classes and imports can be mocked easily, what decreases the pain of getting started with tests.
 - As JavaScript is an interpreted language, I don't have to compile or build my program. I can execute it and see the results directly. But for building complex programs, I often appreciate a build tool at some point. JavaScript's ecosystem has many lightweight and blazing fast build tools like [webpack](https://webpack.js.org/). Below [xkcd](https://xkcd.com/303/)</sup> is something I experienced while developing Java but is a complete unknown feeling to me, when developing in JavaScript's ecosystem. Not having to wait for compile processes helps me to stay focused on the business logic and to develop faster.
 ![compiling](./compiling.png)
-- Client + server -> one team and know how for everything
-
+- I like to call JavaScript the "new Java", as it runs literally everywhere. It runs not only in the browser, but also in desktop apps, on servers, on Androids, on IPhones, coffee machines and so on. When shifting e.g. between frontend and backend development, I don't have to shift my mind between different programming languages. I can also easily share common code and types, reducing development and maintenance effort.
 
 ## Example 
-Below is a maximal simplified example of a developed webpage in React and a server in Node.js. The webpage and the server have a bug each, which are already caught by two failing tests. I can fix the source code and see immediately afterwards that the tests pass 😍. The software also gets build immediately, so that I can show the result to the customer without any delay 😍.
+
+Below is a maximal simplified example of a developed webpage in React and a server in Node.js. The webpage and the server have a bug each, which are already caught by two failing tests. I can fix the code and see immediately afterwards that the tests pass 😍 The software also gets build immediately, so that I can show the result to the customer without any delay 😍 For those who don't know it yet. The idea for the tests of "_Two plus two is four. Minus one that's three, quick maths_", is taken from the lyric's of the rap song [Man's not hot](https://www.youtube.com/watch?v=k3jlviX88iw) 😂
 
 ![example](./example.gif)
 
