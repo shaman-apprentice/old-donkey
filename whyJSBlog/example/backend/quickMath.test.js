@@ -6,7 +6,7 @@ describe('quickMath', () => {
     expect(quickMath.twoPlusTwo()).toBe('4');
   });
 
-  test('twoPlusTwo', () => {
+  test('minusOne', () => {
     expect(quickMath.minusOne()).toBe('3');
   });
 });
