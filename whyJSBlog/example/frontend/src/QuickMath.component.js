@@ -17,7 +17,7 @@ export default function QuickMath() {
   }, [ setQuickMath ])
 
 return <div style={{ fontWeight: 'bold' }}>
-    <p>Two plus two is {quickMath.twoPlusTwo}</p>
-    <p>Minus one that's {quickMath.minusOne}, quick maths</p>
+    <h1>Two plus two is {quickMath.twoPlusTwo}</h1>
+    <h1>Minus one that's {quickMath.minusOne}, quick maths</h1>
   </div>
 } 
