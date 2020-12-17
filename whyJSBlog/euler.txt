@@ -1,0 +1,63 @@
+Todo:
+- problem 05 (JIT): C vs JS vs JS optimiert um types! (vielfaches der Primfaktorzerlegung wäre lame)
+- recompile everything due to chages
+
+- C
+	- Windows C compiler XD (MinGW + doku)
+	- dynamic array length / pointer, realloc, libs
+		-> rethink alg desing
+	- unit tests (compile time)
+	- generator?
+	- need to understand pointer 
+	- generics -> macros workaround
+		- an sich schon Knobelaufgabe, I like :)
+	- no overloading (e.g. for default parameter) -> new function name
+	- long long :D
+	- realloc(self->array, !sizeof!(self->capacity)); // error an anderer stelle je nach run :D / segmented fault - sehr hilfreich, danke
+	- portability?
+	- last char of string is `\0`
+	- printf("%d", long Zahl) yolo
+Perf:
+	- measure!
+		- e.g. JS str += vs join
+		- filter + sum vs reduce (filter and sum in same reduce) (maybe in chrome, firefox and Node.js?)
+- Java
+	- packages "java" XD, "01" XD
+	- alles in classes
+	- default param via overloading
+		-> Info über default Wert muss in docu zusätzlich gepflegt werden
+	- Typesicher failure in collect (see BMW Ticket)
+	- function closures only for final or effectively final -> no Monade?
+	- Lambda expression's parameter x cannot redeclare another local variable defined in an enclosing scope.
+	- The literal 600851475143 of type int is out of range -> long, Math.pow -> double, Problem 08+10 hidden silent overflow, int cannot be auto boxed into long oO
+	- map int -> String not possible oO -> mapToObj
+	- Double::parseDouble macht bei int arg mist :D, für int arg Double::valueOf
+	- reduce o -> int 3 args? fst idendity? (problem 70) https://docs.oracle.com/javase/8/docs/api/java/util/stream/Stream.html#reduce-U-java.util.function.BiFunction-java.util.function.BinaryOperator-
+- Python
+	- typos in vars, kein const / let (color highlighting helps to structure and reason new or prev)
+	- functions not fst class members (no multi line lambda with var assignment)
+		-> no quick and dirty
+		-> no workaround for private scoping
+	- types possible?
+	- https://chrisyeh96.github.io/2017/08/08/definitive-guide-python-imports.html
+		- no relative imports from main script
+		- relative import of utils depend on / are resolved to dir of main script
+			-> import of neighbor of main is not possible out of the box
+			-> b: python -m packA.a2
+			-> a: sys.path.append(os.path.dirname(os.path.dirname(os.path.realpath(__file__))))
+	- list comprehension faster but new syntax to learn
+- JS
+	- no range() -> utility
+	- has JIT (Python has not - see 05. How about compare C? :))
+		- typeof([]) === 'object' -> less performant in list operations than Python
+	- package.json kleinere Hürde als maven, Gradle
+
+- Focus on one language / doing one prob in 4 languages is exhausting
+
+Todo:
+- Performance
+	- run in chrome
+
+- JIT in problem 05 and 70
+- makefile vs package.json vs gradle, vs python imports :D
+

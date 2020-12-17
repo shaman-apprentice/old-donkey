@@ -7,3 +7,11 @@
     -  Appendix? Hard to make fair performance comparison
 - Table cool features
 - Table possible Pitfalls 
+
+|       | C     | Java   | Python      | JavaScript
+|-------|-------|--------|-------------|------------
+|  JIT     |   asdf    |        |             |  
+|       |       |        |             |  
+|       |       |        |             |  
+|       |       |        |             |  
+|       |       |        |             |  
