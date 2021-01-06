@@ -1,14 +1,6 @@
-﻿![JavaScript awkward penguin](./JavaScriptAwkwardPenguin.jpg)
+﻿# Part 1: Annoying past of JavaScript
 
-Why are many people reserved about JavaScript? And why is JavaScript nevertheless an excellent choice for your work to get done? This blog is split into the following three parts:
-
-- Part 1: Annoying past of JavaScript
-- Part 2: Why JavaScript is definitely a cool thing
-- Part 3: My personal language challenge _C_ vs _Java_ vs _Python_ vs _JavaScript_
-
-## Part 1: Annoying past of JavaScript
-
-> **TL;DR:** In the beginning JavaScript development was driven proprietary and on purpose not compatible to competitors.
+> **TL;DR:** In the beginning JavaScript development was driven proprietary and on purpose not compatible to competitors. Today standards have arose and JavaScript is a cool thing.
 
 Starting with the year 1995 the internet was commercialized. Graphical user interfaces (aka browsers) made information and services from servers accessible also for non technicians. A lot of money could be made through installation, support, third party licensing and custom feature implementation for those servers and browsers. With increasing popularity and user accesses advertisement in the browser became a source of revenue as well.<sup>[1](#References), [2](#References)</sup>
 
@@ -24,7 +16,7 @@ Probably everyone has heard about this competition in some way as [browser war](
 
 ![circle-of-browser-war](circle-of-browser-war.png)
 
-At the top we have a player who thinks is winning. He develops non standard language feature on purpose, as he thinks that this adds cool features and increases the vendor lock-in, which hardens its market position. But then they realise to the right, that user gets frustrated due to the many different user experiences. In addition developing becomes more and more slower, expensive and frustrating. Therefore all competitors agree to work together on some standards, provisioned by the W3C and the ECMA organization. But making a standard is a slow process. Implementing some of the standards before finalization and adding cool features on top of them, promise a competitive advantage. Sounds smart but leads us back to the top of the circle. Luckily on each circle also some cool finalized and agreed on standardized features manage the jump out of the circle. 
+At the top we have a player who thinks is winning. He develops non standard language feature on purpose, as he thinks that this adds cool features and increases the vendor lock-in, which hardens its market position. But then they realise to the right, that user gets frustrated due to the many different user experiences. In addition developing becomes more and more slower, expensive and frustrating. Therefore all competitors agree to work together on some standards, provisioned by the W3C and the ECMA organization. But making a standard is a slow process. Implementing some of the standards before finalization and adding cool features on top of them, promises a competitive advantage. Sounds smart but leads us back to the top of the circle. Luckily on each circle also some cool finalized and agreed on standardized features manage the jump out of the circle. 
 
 To put it in a nutshell, JavaScript needed some circles to evolve from its early quick and dirty proprietary origin, to a mature, multi paradigm and open standard programming language, which it has become today. From a developer point of view, the different phases keeping backwards compatibility in mind is a lot to keep up with. [How it feels to learn JavaScript in 2016](https://hackernoon.com/how-it-feels-to-learn-javascript-in-2016-d3a717dd577f) is a lovely article caricaturing the frustration of it.
 
@@ -34,7 +26,7 @@ To put it in a nutshell, JavaScript needed some circles to evolve from its early
 
 ### Final remark
 
-After this exhausting journey about JavaScript's past, allow me to finish with two refreshing quotes:
+After this journey about JavaScript's past, allow me to finish with two refreshing quotes:
 
 1. JavaScript founder Eich likes to finish his talks with the following slide, stating that JavaScript so far has mastered every obstacle and probably will continue to do so:<sup>[6](#References)</sup>
     > ![always-bet-on-JS](always-bet-on-JS.png)
