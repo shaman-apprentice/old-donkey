@@ -28,10 +28,10 @@ To put it in a nutshell, JavaScript needed some circles to evolve from its early
 
 After this journey about JavaScript's past, allow me to finish with two refreshing quotes:
 
-1. JavaScript founder Eich likes to finish his talks with the following slide, stating that JavaScript so far has mastered every obstacle and probably will continue to do so:<sup>[6](#References)</sup>
+1. JavaScript founder Brendan Eich 2017<sup>[6](#References)</sup>: 
     > ![always-bet-on-JS](always-bet-on-JS.png)
-2. Docker co-founder Solomon Hykes twittered in March 2019:
-    > If WASM+WASI existed in 2008, we wouldn't have needed to created Docker. That's how important it is.<sup>[7](#References)</sup>
+2. Docker co-founder Solomon Hykes 2019<sup>[7](#References)</sup>:
+    > If WASM+WASI existed in 2008, we wouldn't have needed to created Docker. That's how important it is.
 
 
 ## References
