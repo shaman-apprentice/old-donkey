@@ -5,67 +5,42 @@
   <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" />
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="chartjs/chartjs.min.css" />
   <script src="chartjs/chartjs.bundle.min.js"></script>
+  <link rel="stylesheet" href="chartjs/chartjs.min.css" />
+  <style>
+    canvas {
+      display: inline-block !important;
+    }
+  </style>
 </head>
 
 <body>
-  <canvas id="myChart" width="400" height="400"></canvas>
+  <canvas id="chart1-10" width="400" height="400"></canvas>
+  <canvas id="chartWithout5And10" width="400" height="400"></canvas>
+  <canvas id="chartWithoutPython" width="400" height="400"></canvas>
 
   <script type="module">
-    import { parseProblemsForLanguage } from "./src/measurementParser.js"
+    import { createChartObjectForProb1To10 } from "./src/measurementParser.js"
+    import "./lodash/lodash.min.js"
 
-    var ctx = document.getElementById('myChart');
-    new Chart(document.getElementById('myChart'), {
-      type: 'line',
-      data: {
-        labels: ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10"],
-        datasets: [
-          {
-            label: 'C',
-            data: parseProblemsForLanguage((number) => new RegExp(`${number}/main\\.exe`), 1, 10),
-            borderColor: "rgb(205,133,63)",
-          },
-          {
-            label: 'Java',
-            data: parseProblemsForLanguage((number) => new RegExp(`${number}/Main\\.java`), 1, 10),
-            borderColor: "rgb(255,0,0)",
-          },
-          {
-            label: 'JavaScript',
-            data: parseProblemsForLanguage((number) => new RegExp(`${number}/main\\.js`), 1, 10),
-            borderColor: "rgb(255,215,0)",
-          },
-          {
-            label: 'Python',
-            data: parseProblemsForLanguage((number) => new RegExp(`python.*${number}\\.main`), 1, 10),
-            borderColor: "rgb(75, 75, 192)",
-          },
-        ]
-      },
-      options: {
-        title: { display: true, text: "1. All" },
-        responsive: false,
-        animation: false,
-        scales: {
-            xAxes: [{
-              scaleLabel: {
-                display: true,
-                labelString: "problem number"
-              },
-            }],
-            yAxes: [{
-              scaleLabel: {
-                display: true,
-                labelString: "t/s in average with 100 runs"
-              }
-            }],
-        },
-        elements: {
-          line: { fill: false }
-        }
-      }
-    });
+    new Chart(document.getElementById('chart1-10'), createChartObjectForProb1To10())
+    new Chart(document.getElementById('chartWithout5And10'), createChartObjectWithout5And10())
+    new Chart(document.getElementById('chartWithoutPython'), createChartObjectForProb1To10())
+
+    function createChartObjectWithout5And10() {
+      const chartObject = _.cloneDeep(createChartObjectForProb1To10())
+      chartObject.options.title.text = "Without Problem 05 and 10"
+      
+      chartObject.data.labels.splice(9, 1)
+      chartObject.data.labels.splice(4, 1)
+      
+      chartObject.data.datasets.forEach(dataset => {
+        dataset.data.splice(9, 1)
+        dataset.data.splice(4, 1)
+      })
+
+      return chartObject
+    }
   </script>
 </body>
 
