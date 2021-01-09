@@ -11,35 +11,58 @@
 
 <body>
   <canvas id="myChart" width="400" height="400"></canvas>
-  <script>
+
+  <script type="module">
+    import { parseProblemsForLanguage } from "./src/measurementParser.js"
+
     var ctx = document.getElementById('myChart');
-    var myChart = new Chart(ctx, {
+    new Chart(document.getElementById('myChart'), {
       type: 'line',
       data: {
+        labels: ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10"],
         datasets: [
           {
-            label: 'A',
-            data: [12, 19, 3, 5, 2, 3].map((e, i) => ({x: i, y: e})),
-            borderColor: "rgb(75, 192, 192)",
-            lineTension: 0.1,
-            fill: false,
+            label: 'C',
+            data: parseProblemsForLanguage((number) => new RegExp(`${number}/main\\.exe`), 1, 10),
+            borderColor: "rgb(205,133,63)",
           },
           {
-            label: 'B',
-            data: [10, 17, 2, 4, 1, 2].map((e, i) => ({x: i, y: e})),
+            label: 'Java',
+            data: parseProblemsForLanguage((number) => new RegExp(`${number}/Main\\.java`), 1, 10),
+            borderColor: "rgb(255,0,0)",
+          },
+          {
+            label: 'JavaScript',
+            data: parseProblemsForLanguage((number) => new RegExp(`${number}/main\\.js`), 1, 10),
+            borderColor: "rgb(255,215,0)",
+          },
+          {
+            label: 'Python',
+            data: parseProblemsForLanguage((number) => new RegExp(`python.*${number}\\.main`), 1, 10),
             borderColor: "rgb(75, 75, 192)",
-            lineTension: 0.1,
-            fill: false,
-          }
+          },
         ]
       },
       options: {
+        title: { display: true, text: "1. All" },
         responsive: false,
         animation: false,
         scales: {
             xAxes: [{
-                type: "linear"
-            }]
+              scaleLabel: {
+                display: true,
+                labelString: "problem number"
+              },
+            }],
+            yAxes: [{
+              scaleLabel: {
+                display: true,
+                labelString: "t/s in average with 100 runs"
+              }
+            }],
+        },
+        elements: {
+          line: { fill: false }
         }
       }
     });
