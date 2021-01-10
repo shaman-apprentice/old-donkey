@@ -60,7 +60,7 @@ export const createChartObjectForProb1To10 = () => ({
     ]
   },
   options: {
-    title: { display: true, text: "1. All" },
+    title: { display: true, text: "Problems 01 - 10" },
     responsive: false,
     animation: false,
     scales: {
@@ -74,7 +74,8 @@ export const createChartObjectForProb1To10 = () => ({
           scaleLabel: {
             display: true,
             labelString: "t/s in average with 100 runs"
-          }
+          },
+          ticks: { min: 0 }
         }],
     },
     elements: {

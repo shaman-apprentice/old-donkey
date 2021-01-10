@@ -25,7 +25,7 @@
 
     new Chart(document.getElementById('chart1-10'), createChartObjectForProb1To10())
     new Chart(document.getElementById('chartWithout5And10'), createChartObjectWithout5And10())
-    new Chart(document.getElementById('chartWithoutPython'), createChartObjectForProb1To10())
+    new Chart(document.getElementById('chartWithoutPython'), createChartObjectWithoutPython())
 
     function createChartObjectWithout5And10() {
       const chartObject = _.cloneDeep(createChartObjectForProb1To10())
@@ -38,7 +38,19 @@
         dataset.data.splice(9, 1)
         dataset.data.splice(4, 1)
       })
-
+      
+      return chartObject
+    }
+    
+    function createChartObjectWithoutPython() {
+      const chartObject = _.cloneDeep(createChartObjectForProb1To10())
+      
+      chartObject.options.title.text = "Problems 01 - 10 without Python"
+      
+      chartObject.data.datasets = chartObject.data.datasets.filter(dataset => dataset.label !== "Python")
+      
+      chartObject.options.scales.yAxes[0].ticks.stepSize = 1
+      
       return chartObject
     }
   </script>
