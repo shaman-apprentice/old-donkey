@@ -1,6 +1,6 @@
-import { measurements } from "./measurements01-10.js"
+import { measurements1To10 } from "./measurements01-10.js"
 
-const measurementLines = measurements.split("\n")
+const measurementLines = measurements1To10.split("\n")
 
 /** @return number - average taken time for problem  */
 const parseProblem = (headingLineRegExpForProblem) => {

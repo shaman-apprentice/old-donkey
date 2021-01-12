@@ -1,4 +1,22 @@
-export const measurements = `Running 'node js/01/main.js' 100-times:
+export const measurements70 = `Running 'node js/70/main.js' 3-times:
+Running 'node js/70/main.js' 3-times:
+1490.495
+1489.201
+1489.040
+Running 'python -m python._70.main' 3-times:
+26071.560
+26103.286
+26091.498
+Running 'c/70/main.exe' 3-times:
+1941.431
+1938.806
+1941.749
+Running 'java java_/_70/Main.java' 3-times:
+1552.012
+1558.546
+1540.284`
+
+export const measurements1To10 = `Running 'node js/01/main.js' 100-times:
 0.063
 0.057
 0.058
@@ -4037,5 +4055,4 @@ Running 'java java_/_10/Main.java' 100-times:
 1.293
 1.311
 1.282
-1.281
-`
+1.281`
