@@ -24,7 +24,6 @@
   <canvas id="problem00" width="400" height="400"></canvas>
 
   <script type="module">
-    import "./lodash/lodash.min.js"
     import { createChartObjectForProb1To10, createBarObjectForProb, measurementOfProb00Lines, measurementOfProb70Lines } from "./src/measurementParser.js"
 
     new Chart(document.getElementById('chart1-10'), createChartObjectForProb1To10())
@@ -42,7 +41,7 @@
     )
 
     function createChartObjectWithout5And10() {
-      const chartObject = _.cloneDeep(createChartObjectForProb1To10())
+      const chartObject = createChartObjectForProb1To10()
       chartObject.options.title.text = "Without Problem 05 and 10"
       
       chartObject.data.labels.splice(9, 1)
@@ -57,7 +56,7 @@
     }
     
     function createChartObjectWithoutPython() {
-      const chartObject = _.cloneDeep(createChartObjectForProb1To10())
+      const chartObject = createChartObjectForProb1To10()
       
       chartObject.options.title.text = "Problems 01 - 10 without Python"
       
@@ -69,7 +68,7 @@
     }
   
     function createChartObjectWithoutPythonWithoutStartupTime() {
-      const chartObject = _.cloneDeep(createChartObjectWithoutPython())
+      const chartObject = createChartObjectWithoutPython()
       chartObject.options.title.text = "Problems 01 - 10 with average startup time subtracted"
       const startupTimes = getStartupTimes()
       chartObject.data.datasets.forEach(dataset => {
