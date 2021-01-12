@@ -25,6 +25,8 @@ Everything could be implemented - Most fun dynamic prime generator (coolest in J
 
 Switching language is hard between probs -> doing one languange in row (+JS as backend and frontend)
 
+todo: add rLoC
+
 |     	| &nbsp;&nbsp;&nbsp;&nbsp;C&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;Java&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;Python&nbsp;&nbsp;     	| JavaScript 	|
 |:---------------------------------------- 	|:---:	|:----------:	|:----------:	|:----------:	|
 |         Runs without compilation         	|  ✗  	|      ✗     	|      ✓     	|      ✓     	|
