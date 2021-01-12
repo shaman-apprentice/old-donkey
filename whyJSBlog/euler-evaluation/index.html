@@ -19,13 +19,25 @@
   <canvas id="chartWithout5And10" width="400" height="400"></canvas>
   <canvas id="chartWithoutPython" width="400" height="400"></canvas>
 
+  <canvas id="problem70" width="400" height="400"></canvas>
+  <canvas id="problem00" width="400" height="400"></canvas>
+
   <script type="module">
-    import { createChartObjectForProb1To10 } from "./src/measurementParser.js"
     import "./lodash/lodash.min.js"
+    import { createChartObjectForProb1To10, createBarObjectForProb, measurementOfProb00Lines, measurementOfProb70Lines } from "./src/measurementParser.js"
 
     new Chart(document.getElementById('chart1-10'), createChartObjectForProb1To10())
     new Chart(document.getElementById('chartWithout5And10'), createChartObjectWithout5And10())
     new Chart(document.getElementById('chartWithoutPython'), createChartObjectWithoutPython())
+
+    new Chart(
+      document.getElementById('problem70'),
+      createBarObjectForProb("70", measurementOfProb70Lines, "Startup time / runtime for empty program", "t/min in average with 100 runs", 60)
+    )
+    new Chart(
+      document.getElementById('problem00'),
+      createBarObjectForProb("00", measurementOfProb00Lines, "Startup time / runtime for empty program", "t/min in average with 100 runs")
+    )
 
     function createChartObjectWithout5And10() {
       const chartObject = _.cloneDeep(createChartObjectForProb1To10())
