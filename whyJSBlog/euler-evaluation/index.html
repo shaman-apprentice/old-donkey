@@ -18,6 +18,7 @@
   <canvas id="chart1-10" width="400" height="400"></canvas>
   <canvas id="chartWithout5And10" width="400" height="400"></canvas>
   <canvas id="chartWithoutPython" width="400" height="400"></canvas>
+  <canvas id="chartWithoutPythonWithoutStartupTime" width="400" height="400"></canvas>
 
   <canvas id="problem70" width="400" height="400"></canvas>
   <canvas id="problem00" width="400" height="400"></canvas>
@@ -29,10 +30,11 @@
     new Chart(document.getElementById('chart1-10'), createChartObjectForProb1To10())
     new Chart(document.getElementById('chartWithout5And10'), createChartObjectWithout5And10())
     new Chart(document.getElementById('chartWithoutPython'), createChartObjectWithoutPython())
+    new Chart(document.getElementById('chartWithoutPythonWithoutStartupTime'), createChartObjectWithoutPythonWithoutStartupTime())
 
     new Chart(
       document.getElementById('problem70'),
-      createBarObjectForProb("70", measurementOfProb70Lines, "Startup time / runtime for empty program", "t/min in average with 100 runs", 60)
+      createBarObjectForProb("70", measurementOfProb70Lines, "Problem 70", "t/min in average with 100 runs", 60)
     )
     new Chart(
       document.getElementById('problem00'),
@@ -64,6 +66,30 @@
       chartObject.options.scales.yAxes[0].ticks.stepSize = 1
       
       return chartObject
+    }
+  
+    function createChartObjectWithoutPythonWithoutStartupTime() {
+      const chartObject = _.cloneDeep(createChartObjectWithoutPython())
+      chartObject.options.title.text = "Problems 01 - 10 with average startup time subtracted"
+      const startupTimes = getStartupTimes()
+      chartObject.data.datasets.forEach(dataset => {
+        dataset.data = dataset.data.map(d => ({
+          x: d.x,
+          y: d.y - startupTimes[dataset.label],
+        }))
+      })
+
+      return chartObject
+
+      function getStartupTimes() {
+        // reuse barObject for prob00 as I am lazy and this is good enough
+        const helpObj = createBarObjectForProb("00", measurementOfProb00Lines, "")
+        return helpObj.data.datasets[0].data.reduce((acc, t, i) => {
+          const label = helpObj.data.labels[i]
+          acc[label] = t
+          return acc
+        }, {})
+      }
     }
   </script>
 </body>
