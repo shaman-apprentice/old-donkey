@@ -17,6 +17,14 @@ How measured...
 - Trade off development costs and maintenance costs vs speed
 </details>
 
+<details>
+  <summary>My hardware</summary>
+
+asdf
+</details>
+
+- todo: chart with subtracted startup time
+
 ## Personal Developer experience
 No academic language comparision - Just features I enjoyed missed during solving
 
