@@ -1,6 +1,8 @@
 # My personal language challenge _C_ vs _Java_ vs _Python_ vs _JavaScript_
 
-The starting point for this blog entry was, that someone claimed JavaScript is a slow language. Someone else claimed, that programs in modern JavaScript are as blazing fast as native written programs in C. Back in my study times I solved [ProjectEuler problems](https://projecteuler.net/about). This are mathematical problems, which should be solved programmatically. I remember that some of my quick solutions took quite some calculation time. So I took the fun to implement a view problems again in C, Java, Python and JavaScript and compare the performance as well as my personal developer experience.
+The starting point for this blog entry was, that someone claimed JavaScript is a slow language. Someone else claimed, that programs in modern JavaScript are as blazing fast as native written programs in C. I personally think, that performance in normal application isn't a main concern, as the hardware has become amazingly fast nowadays.
+
+Back in my study times I solved [ProjectEuler problems](https://projecteuler.net/about). These are mathematical problems, which should be solved programmatically. I remember that some of my quick solutions took quite some calculation time. So I took the fun to implement a view problems again in C, Java, Python and JavaScript and compare the performance as well as my personal developer experience.
 
 ## Performance comparison
 <details>
