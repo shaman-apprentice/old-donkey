@@ -1,19 +1,28 @@
-import { measurements1To10 } from "./measurements01-10.js"
+import { measurements1To10 } from "./measurements.js"
 
-const measurementLines = measurements1To10.split("\n")
+const measurement1To10Lines = measurements1To10.split("\n")
 
 /** @return number - average taken time for problem  */
 const parseProblem = (headingLineRegExpForProblem) => {
-  const indexOfProblemHeading = measurementLines.findIndex(line =>
-    line.match(headingLineRegExpForProblem) !== null)
-  const endIndex = measurementLines.findIndex((line, i) =>
-    i > indexOfProblemHeading && line.startsWith("Running "))
+  const indexOfProblemHeading = getStartIndex()
+  const endIndex = getEndIndex()
 
-  const sum = measurementLines
-    .slice(indexOfProblemHeading + 1, endIndex)
+  const sum = measurement1To10Lines
+    .slice(indexOfProblemHeading, endIndex)
     .reduce((acc, line) => acc + parseFloat(line), 0)
 
   return sum / (endIndex - indexOfProblemHeading)
+
+  function getStartIndex() {
+    return measurement1To10Lines.findIndex(line =>
+      line.match(headingLineRegExpForProblem) !== null) + 1
+  }
+
+  function getEndIndex() {
+    const indexOfNextProblem = measurement1To10Lines.findIndex((line, i) =>
+    i > indexOfProblemHeading && line.startsWith("Running "))
+    return indexOfNextProblem === -1 ? measurement1To10Lines.length : indexOfNextProblem
+  }
 }
 
 /** @param headingRegExpBuilder - function taken number as parameter and returning a RegExp matching problem's heading
@@ -21,16 +30,11 @@ const parseProblem = (headingLineRegExpForProblem) => {
  */
 const parseProblemsForLanguage = (headingRegExpBuilder, start, end) => {
   const data = []
-  for (let i = start; i <= end; i++) {
-    // if (i === 5 || i === 10)
-    //   continue
+  for (let i = start; i <= end; i++) 
     data.push(parseProblem(headingRegExpBuilder(i)))
-  }
 
   return data.map((time, i) => ({x: i + 1, y: time}))
 }
-
-console.log(parseProblem((number) => new RegExp(`${number}/main.js`)))
 
 export const createChartObjectForProb1To10 = () => ({
   type: 'line',
