@@ -11,6 +11,10 @@
     canvas {
       display: inline-block !important;
     }
+
+    body {
+      margin-bottom: 16px;
+    }
   </style>
 </head>
 
@@ -33,11 +37,11 @@
 
     new Chart(
       document.getElementById('problem70'),
-      createBarObjectForProb("70", measurementOfProb70Lines, "Problem 70", "t/min in average with 100 runs", 60)
+      createBarObjectForProb("70", measurementOfProb70Lines, "Problem 70", "t/min in average with 3 runs", 60)
     )
     new Chart(
       document.getElementById('problem00'),
-      createBarObjectForProb("00", measurementOfProb00Lines, "Startup time / runtime for empty program", "t/min in average with 100 runs")
+      createBarObjectForProb("00", measurementOfProb00Lines, "Startup time / runtime for empty program", "t/s in average with 100 runs")
     )
 
     function createChartObjectWithout5And10() {
