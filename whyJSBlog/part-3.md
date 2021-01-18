@@ -97,11 +97,22 @@ Some marks in below table have additional information below described by a footn
 
 
 ### Possible pitfalls
-- C pointer 
-  	- realloc(self->array, !sizeof!(self->capacity)); // error an anderer stelle je nach run :D / segmented fault - sehr hilfreich, danke
-- number overflow
-- int + long needs converting
-- C: - last char of string is `\0`
 
+The following is a short list of pitfalls I stumbled over, which are not possible by all languages. The luxury of not having to worry about those, comes with a small cost in performance, which is in my opinion not of relevance in most programs. 
 
+- C:
+  - Pointer errors and accidentally changing "random" data stored at some memory position
+  - Last character of a string (pointer to chars) is always "`\0`"
+- Python:
+  - As variables must not be declared before first usage, typos in variable usage are valid and lead to unexpected results
+- C and Java
+  - Silent number overflows when doing arithmetics. The size of intermediate results must be known upfront, to prevent this
+  - Annoying casting of float to double and similar
 
+## Summary
+
+To be fair I might be JavaScript biased. I have used C only a little during my study times. For my Bachelor thesis I developed a Java Android application with a Python server. I did my Master thesis in Python. At work I work with some Java and mainly JavaScript. So I definitely have the most experience with JavaScript.
+
+**Nevertheless I think it is very fair to say, that JavaScript as a language does not lack behind regarding performance and does well regarding productivity.**
+
+In a future post I might execute the JavaScript solutions of ProjectEuler problems not with Node.js but within different browsers. To compile them into WebAssembly and evaluate the performance impact also intrigues me.
