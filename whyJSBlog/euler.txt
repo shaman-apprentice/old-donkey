@@ -2,17 +2,9 @@ Todo:
 - problem 05 (JIT): C vs JS vs JS optimiert um types! (vielfaches der Primfaktorzerlegung wäre lame)
 - Run JS in browser
 - WebAssembly
-- recompile everything due to chages
 
 
-Perf:
 
-	- packages "java" XD, "01" XD alles in classes
-	- Java functional:
-		- Type-save failure in collect 
-	  - function closures only for final or effectively final
-	  - Lambda expression's parameter x cannot redeclare another local variable defined in an enclosing scope.
-		- -> Stream, map, Collect
 - Python
 	- typos in vars, kein const / let (color highlighting helps to structure and reason new or prev)
 	- functions not fst class members (no multi line lambda with var assignment)
