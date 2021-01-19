@@ -1,8 +1,9 @@
+# A trilogy about JavaScript
 ![JavaScript awkward penguin](./JavaScriptAwkwardPenguin.jpg)
 
-**JavaScript is my programming language of choice.** In the past it definitely wasn't, but JavaScript has come a long way. 
+This is a small trilogy about JavaScript. Part 1 gives context to the annoying past of JavaScript. Part 2 shows that JavaScript has come a long way since then. And in Part 3 I share my experiences with developing some mathematical problems in C, Java, Python and JavaScript.
 
-The following is a blog series about JavaScript. In part 1 I will dig a little into JavaScript's past, what will explain, why it wasn't considered to be a good programming language by many people in the past. Part 2 will show, that JavaScript has come a long way and is definitely a cool thing today for developers and companies. Finally in part 3, I will develop a view small mathematical problems in C, Java, Python and JavaScript and share my experience.
+After all **JavaScript is my programming language of choice** today.
 
 - [Part 1: Annoying past of JavaScript](part-1.md)
 - [Part 2: Why JavaScript is definitely a cool thing](part-2.md)
