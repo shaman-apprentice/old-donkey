@@ -2,7 +2,7 @@
 
 The starting point for this blog entry was, that someone claimed JavaScript is a slow language. Someone else claimed, that programs in modern JavaScript are as blazing fast as programs natively written in C. I claim myself, that performance in normal applications isn't a first class problem anymore, as long as you have a reasonable software design.
 
-Back in my study times I solved [ProjectEuler problems](https://projecteuler.net/about). These are mathematical problems, which should be solved programmatically. I remember that some of my solutions took quite some calculation time. So I took the fun of implementing a view problems again in C, Java, Python and JavaScript and compare the performance as well as my personal developer experience.
+Back in my study times, I solved [ProjectEuler problems](https://projecteuler.net/about). These are mathematical problems, which should be solved programmatically. I remember that some of my solutions took quite some calculation time. So I took the fun of implementing a few problems again in C, Java, Python and JavaScript and compare the performance as well as my personal developer experience.
 
 The source code for my solutions is available on GitHub [here](https://github.com/shaman-apprentice/project-euler/tree/language-challenge). I used the same algorithm idea for all languages, but utilizing some nice specific language features, like Python's list comprehension. I did not try to squeeze out maximal performance, but solved a problem in JavaScript and when I was satisfied with the solution, I transferred the algorithm to the other languages. The source code used for evaluation is available on GitHub [here](https://github.com/shaman-apprentice/old-donkey/tree/main/whyJSBlog/euler-evaluation).
 
@@ -56,7 +56,7 @@ In the next diagram I measured the startup time for each language through execut
 
 ![Problems 01 - 10 with average startup time subtracted](./euler-evaluation/screenshots/problems01-10WithAverageStartupTimeSubtracted.png)
 
-In general I was surprised, that all of the problems were so fast. I remember that my solutions were way slower back at my studies time without being more sophisticated. Back then I didn't even calculate the primes myself but used precalculated primes. Now I can calculate all primes below 2 million and add them up in less than 2 seconds. On the other side it's not too surprising as I have upgraded my PC multiple times since then. 
+In general I was surprised, that all of the problems were so fast. I remember that my solutions were way slower back at my studies time without being more sophisticated. Back then, I didn't even calculate the primes myself but used precalculated primes. Now I can calculate all primes below 2 million and add them up in less than 2 seconds. On the other side it's not too surprising as I have upgraded my PC multiple times since then. 
 
 I was curious in a longer executing problem, so I solved [problem 70](https://projecteuler.net/problem=70) as well, evaluated in below diagram. Python once again is outpaced by its lack of a JIT compiler. Java and JavaScript outperform C by roughly 20%. To be fair, I am not an experienced C programmer and did no fancy optimizing stuff C probably enables you to do. 
 
@@ -67,11 +67,11 @@ I was curious in a longer executing problem, so I solved [problem 70](https://pr
 ## My developer experience
 This section is a short reflection about my personal developer experience. It is split into a section for language specific features I enjoyed / missed and another section for language specific pitfalls I ran into.
 
-As a general experience I noticed, that switching languages is hard for my brain. Even if my Java and JavaScript skills would be equal, I would still be more productive, if I can develop frontend and backend both in JavaScript, as this allows me to skip an annoying language switch in my head.
+As a general experience I noticed, that switching languages is exhausting. Even if my Java and JavaScript skills would be equal, I would still be more productive, if I can develop frontend and backend both in JavaScript, as this allows me to skip an annoying language switch in my head.
 
 ### Feature comparison
 
-Some marks in below table have additional information below described by a footnote like  <sup>1<sub>J</sub></sup>.
+Some marks in table below have additional information described by a footnote like  <sup>1<sub>J</sub></sup>.
 
 |     	| &nbsp;&nbsp;&nbsp;&nbsp;C&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;Java&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;Python&nbsp;&nbsp;     	| JavaScript 	|
 |:---------------------------------------- 	|:---:	|:----------:	|:----------:	|:----------:	|
@@ -87,12 +87,12 @@ Some marks in below table have additional information below described by a footn
 | No restrictions in file and folder names 	| ✓   	| ✗<sup>7<sub>J/P</sub></sup>   	| ✗<sup>7<sub>J/P</sub></sup>   	| ✓          	|
 | JIT compiler                            	|  ✗  	|      ✓     	|      ✗     	|      ✓     	|
 
-1. <sub>J</sub>: [Write once, run anywhere](https://en.wikipedia.org/wiki/Write_once,_run_anywhere) was a slogan advertising Java cross-platform compatibility in 1995. For that reason I like to call JavaScript the new Java. In contrast to Java JavaScripts runs e.g. also natively on the web or you can create React Native apps for Android and IPhone.
+1. <sub>J</sub>: [Write once, run anywhere](https://en.wikipedia.org/wiki/Write_once,_run_anywhere) was a slogan advertising Java cross-platform compatibility in 1995. For that reason I like to call JavaScript the new Java. In contrast to Java JavaScript runs e.g. also natively on the web or you can create React Native apps for Android and iPhone.
 2. <sub>JS</sub>: As all valid JavaScript is also valid TypeScript migrating to strong types as prudent is a simple task. This comes with only marginal cost of using [ts-node](https://github.com/TypeStrong/ts-node) or transpiling your TypeScript back into JavaScript.
-3. <sub>J</sub>: Java's stream api has many functional features. But it felt clumsy to me, as it needs a lot of boiler code and type converting. Surprisingly for me runtime exceptions, which could be detected by static source analysis, are still possible, as shown in [this unit-test](https://github.com/shaman-apprentice/old-donkey/tree/main/JavaStreamTypeRuntimeError). In addition the function closures works only for final or effectively final variables, what was an unexpected restriction for me.
+3. <sub>J</sub>: Java's stream api has many functional features. But it felt clumsy to me, as it needs a lot of boiler code and type converting. Surprisingly for me runtime exceptions, which could be detected by static source analysis, are still possible, as shown in [this unit-test](https://github.com/shaman-apprentice/old-donkey/tree/main/JavaStreamTypeRuntimeError). In addition function closure works only for final or effectively final variables, what was an unexpected restriction for me.
 4. <sub>J</sub>: In general I think classes are a nice and useful abstraction feature. But that in Java everything has to live within a class (and a package declaration) feels to me like unnecessary enforcing of boiler code, which doesn't always provide value. 
 5. <sub>C</sub>: Implementing a [generic array with dynamic length through macros](https://github.com/shaman-apprentice/project-euler/blob/master/c/utilities/dArray.c) was fun for me from an academical point of view. But it also felt error prone. I am glad that it is easier to implement and use generic typed utilities in the other languages. 
-6. <sub>J</sub>: Java supports function overloading. If this is a good or bad feature is not topic of this blog. But it is something you can utilise for default parameter handling.
+6. <sub>J</sub>: Java supports function overloading. Wether this is a good or bad feature is not topic of this blog. But it is something you can utilise for default parameter handling.
 7. <sub>J/P</sub>: Originally I wanted my folder structure to look like _language/problemNumber/main.extension_. But as packages must be valid identifiers in Java and Python and neither _java_ nor _01_ are valid identifiers, I had to change the Java pattern to _java\_/\_01/Main.java_. The python pattern had to change to _python/\_01/main.py_. This restriction annoyed me, as I think it is unnecessary.
 
 
@@ -101,13 +101,13 @@ Some marks in below table have additional information below described by a footn
 The following is a short list of pitfalls I stumbled over, which are not possible by all languages. The luxury of not having to worry about those, comes with a small cost in performance, which is in my opinion not of relevance in most programs. 
 
 - C:
-  - Pointer errors and accidentally changing "random" data stored at some memory position
-  - Last character of a string (pointer to chars) is always "`\0`"
+  - Pointer errors and accidentally changing "random" data stored at some memory position are possible.
+  - Last character of a string (pointer to chars) is always "`\0`".
 - Python:
-  - As variables must not be declared before first usage, typos in variable usage are valid and lead to unexpected results
+  - As variables don't have to be declared before first usage, typos in variable usage are valid and lead to unexpected results.
 - C and Java
-  - Silent number overflows when doing arithmetics. The size of intermediate results must be known upfront, to prevent this
-  - Annoying casting of float to double and similar
+  - Silent number overflows when doing arithmetics. The size of intermediate results must be known upfront, to prevent this.
+  - Annoying casting of float to double and similar is necessary.
 
 ## Summary
 
