@@ -41,7 +41,7 @@ So how does JavaScript's ecosystem support those goals?
     - JavaScript and TypeScript are awesome for Unit Tests. There are many things which make Unit Testing hard like mocking. Of course the first goal should be to improve design, so that writing Unit Tests loses its pain<sup>[6](#References)</sup>. But especially in legacy projects this can be a long and exhausting journey. In JavaScript's ecosystem it is easy to mock objects and functions. Even classes and imports can be mocked easily, what decreases the pain of getting started with tests.
 - As JavaScript is an interpreted language, I don't have to compile or build my program. I can execute it and see the results directly. But for building complex programs, I often appreciate a build tool at some point. JavaScript's ecosystem has many lightweight and blazing fast build tools like [webpack](https://webpack.js.org/). Below [xkcd](https://xkcd.com/303/)</sup> is something I experienced while developing Java but is a complete unknown feeling to me, when developing in JavaScript's ecosystem. Not having to wait for compile processes helps me to stay focused on the business logic and to develop faster.
 ![compiling](./compiling.png)
-- I like to call JavaScript the "new Java", as it runs literally everywhere. It runs not only in browsers, but also in desktop apps, on servers, on Androids, on iPhones, coffee machines and so on. When shifting e.g. between frontend and backend development, I don't have to shift my mind between different programming languages. I can also easily share common code and types, reducing development and maintenance effort.
+- In the style of Java's advertisement "Write once, run anywhere"<sup>[7](#References)</sup>, I like to call JavaScript the new Java, as it runs literally everywhere. It runs not only in browsers, but also in desktop apps, on servers, on Androids, on iPhones, coffee machines and so on. When shifting e.g. between frontend and backend development, I don't have to shift my mind between different programming languages. I can also easily share common code and types, reducing development and maintenance effort.
 
 ## 3. Example development with JavaScript 
 
@@ -56,3 +56,4 @@ Below is a simplified example of a webpage developed in React and a Node.js serv
 4. https://nodejs.org/en/user-survey-report/
 5. http://www.modulecounts.com/ (accessed in December 2020)
 6. Talk "_the deep synergy between testability and good design_" by Michael Feathers, https://www.youtube.com/watch?v=4cVZvoFGJTU
+7. https://en.wikipedia.org/wiki/Write_once,_run_anywhere
