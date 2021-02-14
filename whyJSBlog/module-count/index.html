@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<head>
+  <title>index</title>
+  <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script src="chartjs/chartjs.bundle.min.js"></script>
+  <link rel="stylesheet" href="chartjs/chartjs.min.css" />
+  <style>
+    canvas {
+      display: inline-block !important;
+    }
+
+    body {
+      margin-bottom: 16px;
+    }
+  </style>
+</head>
+
+<body>
+  <canvas id="module-count" width="400" height="400"></canvas>
+
+  <script type="module">
+    import { csvData } from "./modulecounts-2021.02.14.js"
+    const lines = csvData
+      .split("\n")
+      .filter(entry => ["2010", "2011", "2012", "2013", "2014"].every(year => !entry.startsWith(year)))
+      .map(line => line
+        .split(",")
+        .map((entry, i, arr) => i === 0
+          ? entry
+          : ({ x: new Date(arr[0]), y: parseInt(entry) })
+        )
+        .slice(1) // remove date column
+      )
+
+    new Chart(document.getElementById('module-count'), {
+      type: "line",
+      data: {
+        datasets: [
+          {
+            label: "npm (JavaScript)",
+            data: handleEmptyData(lines.map(line => line[18])),
+            borderColor: "orange",
+            spanGaps: true,
+          },
+          {
+            label: "Maven Central (Java)",
+            data: handleEmptyData(lines.map(line => line[15])),
+            borderColor: "red",
+            spanGaps: true,
+          },
+          {
+            label: "Packagist (PHP)",
+            data: handleEmptyData(lines.map(line => line[20])),
+            borderColor: "grey",
+            spanGaps: true,
+          },
+          {
+            label: "PyPi (Python)",
+            data: handleEmptyData(lines.map(line => line[23])),
+            borderColor: "lightblue",
+            spanGaps: true,
+          },
+          {
+            label: "Nuget (.NET)",
+            data: handleEmptyData(lines.map(line => line[19])),
+            borderColor: "blue",
+            spanGaps: true,
+          },
+          {
+            label: "RubyGems (Ruby)",
+            data: handleEmptyData(lines.map(line => line[24])),
+            borderColor: "darkred",
+            spanGaps: true,
+          },
+        ],
+      },
+      options: {
+        title: { display: true, text: "Module count 2020" },
+        responsive: false,
+        animation: false,
+        scales: {
+            xAxes: [{
+              display: true,
+              type: 'time',
+              position: 'bottom',
+              time: {
+                displayFormats: {'year': 'YYYY'},
+                unit: 'year',
+              },
+            }],
+            yAxes: [{
+              scaleLabel: {
+                display: true,
+              },
+            }],
+        },
+        elements: {
+          line: { fill: false, borderWidth: 3},
+          point: { pointStyle: "line", radius: 1 }
+        }
+      }
+    })
+
+    function handleEmptyData(dataPoints) {
+      return dataPoints.filter(d => d.y !== 0);
+
+      // // following code is for replacing empty data with average step to next data point:
+      // if (!isValid(dataPoints[0]) || !isValid(dataPoints[dataPoints.length - 1]))
+      //   throw new Error("cannot fix data outage")
+
+      // for (let i = 0; i < dataPoints.length; i++) {
+      //   if (isValid(dataPoints[i]))
+      //     continue
+        
+      //   const firstNotZeroIndex = dataPoints.findIndex((val, j) => j > i && isValid(val))
+      //   const stepsInBetween = firstNotZeroIndex - i + 1
+      //   const difference = dataPoints[firstNotZeroIndex].y - dataPoints[i - 1].y
+      //   dataPoints[i].y = parseInt(dataPoints[i - 1].y + difference / stepsInBetween)
+      // }
+
+      // return dataPoints
+    }
+
+    function isValid(dataPoint) {
+      return !isNaN(dataPoint.y) && dataPoint.y !== 0
+    }
+  </script>
+</body>
