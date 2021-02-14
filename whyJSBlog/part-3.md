@@ -13,19 +13,17 @@ This blog entry is split into the following two parts:
 ## 1. Performance analysis
 <details>
   <summary>Performance is a complicated topic!</summary>
-  The following are just some basic thoughts about performance:
+  The following thoughts are just some basic reasoning about performance:
 
-  First of all you have to define your performance goals. For Example if you have a function as a service, the startup time of a Java VM might be to slow for you (and a full Java VM in general is probably also more expensive in its resource usage than an interpreted language). But if you have a server running 24/7, startup time is of no concern for you.
+  First of all you have to define your performance goals. For example if you have a function as a service, the startup time of a Java VM might be too slow for you (and a full Java VM in general is probably also more expensive in its resource usage than an interpreted language). But if you have a server running 24/7, startup time is of no concern for you.
 
-  Another question is, if you are interested in the first execution time or on the average of one million executions. An algorithm A can be faster than algorithm B if they both run once, but algorithm B can be faster in average over multiple executions, if it can be better optimized by a JIT compiler.
+  Another question is, whether you are interested in the first execution time or in the average of one million executions. An algorithm A can be faster than algorithm B if they both run once, but algorithm B can be faster in average over multiple executions if it can be better optimized by a JIT compiler.
 
-  This leads me to the next thought about compilers. Thinking about optimizing source code I always remember my mathematical numeric professor. He spent quite some time in optimizing his source source code. But when he compiled and measured the difference, he had to admit, that the program has became slower. The moral is, that human optimizations to the source code can reduce optimizations possible by the compiler.
-
-  Also based on the version of the compiler, the runtime and underlying hardware the performance of the same program / algorithm can differ.
+  Also, based on the version of the compiler, the runtime and underlying hardware the performance of the same program / algorithm can differ.
 
   In addition the input data can have huge impact on the performance. I remember reading a paper about an efficient algorithm for solving the knapsack problem during my study times. The given algorithm outperformed all other given algorithms by far with the given test data. But when I ingested random generated data, it was in general way slower than the other algorithms.
 
-  Last but not least performance is probably not the ultimate goal. How much would some performance optimization improve the user experience? Can the revenue be increased or costs be decreased through some performance optimization? How much time does it take to optimize the performance (remember that development time is expensive). Does the optimization make future feature development or maintenance more difficult?
+  Last but not least performance is probably not the ultimate goal. How much would some performance optimization improve the user experience? Can the revenue be increased or costs be decreased through some performance optimization? How much time does it take to optimize the performance? Does the optimization make future feature development or maintenance more difficult?
 </details>
 
 <details>
