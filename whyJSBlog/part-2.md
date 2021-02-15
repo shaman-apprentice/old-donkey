@@ -45,7 +45,7 @@ So how does JavaScript's ecosystem support those goals?
 
 ## 3. Example development with JavaScript 
 
-Below is a simplified example of a webpage developed in React and a Node.js server. The webpage and the server have a bug each, which are already caught by two failing tests. I can fix the code and see immediately afterwards that the tests pass 😍 The software also gets built immediately, so that I can see the change immediately 😍 (Random knowledge: "_Two plus two is four. Minus one that's three, quick maths_", is taken from the lyric's [Man's not hot](https://www.youtube.com/watch?v=k3jlviX88iw) 😂)
+Below is a simplified example of a webpage developed in React and a Node.js server. The webpage and the server have a bug each, which are already caught by two failing tests. I can fix the code and see immediately afterwards that the tests pass. The software also gets built immediately, so that I can see the change without delay. Programming frontend and backend with the same language on top of blazing fast feedback loops increases my productivity as developer a lot.
 
 ![example](./example.gif)
 
