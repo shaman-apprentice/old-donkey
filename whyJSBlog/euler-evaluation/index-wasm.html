@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<head>
+  <title>index</title>
+  <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script src="chartjs/chartjs.bundle.min.js"></script>
+  <link rel="stylesheet" href="chartjs/chartjs.min.css" />
+  <style>
+    canvas {
+      display: inline-block !important;
+    }
+
+    body {
+      margin-bottom: 16px;
+    }
+  </style>
+</head>
+
+<body>
+  <canvas id="chart1-10" width="400" height="400"></canvas>
+  <canvas id="chartWithout5" width="400" height="400"></canvas>
+  <canvas id="chartWithout5WithoutStartupTime" width="400" height="400"></canvas>
+
+  <canvas id="problem00" width="400" height="400"></canvas>
+  <canvas id="problem70" width="400" height="400"></canvas>
+
+
+  <script type="module">
+    import { createChartObjectForProb1To10, createBarObjectForProb } from "./src/wasm.js"
+    import measurements1To10 from "./src/measurements/1To10wasm.js"
+    import measurementOfProb70 from "./src/measurements/70wasm.js"
+    import measurementOfProb00 from "./src/measurements/00wasm.js"
+
+    const measurementOfProbs1To10Lines = measurements1To10.split("\n")
+    const measurementOfProb70Lines = measurementOfProb70.split("\n")
+    const measurementOfProb00Lines = measurementOfProb00.split("\n")
+
+    new Chart(document.getElementById('chart1-10'), createChartObjectForProb1To10(measurementOfProbs1To10Lines))
+    new Chart(document.getElementById('chartWithout5'), createChartObjectWithout5(measurementOfProbs1To10Lines))
+    new Chart(document.getElementById('chartWithout5WithoutStartupTime'), createChartObjectWithoutStartupTime())
+
+    new Chart(
+      document.getElementById('problem70'),
+      createBarObjectForProb("70", measurementOfProb70Lines, "Problem 70", "t/min in average with 3 runs", 60)
+    )
+    new Chart(
+      document.getElementById('problem00'),
+      createBarObjectForProb("00", measurementOfProb00Lines, "Startup time / runtime for empty program", "t/s in average with 100 runs")
+    )
+
+    function createChartObjectWithout5() {
+      const chartObject = createChartObjectForProb1To10(measurementOfProbs1To10Lines)
+      chartObject.options.title.text = "Without Problem 05"
+      
+      //chartObject.data.labels.splice(9, 1)
+      chartObject.data.labels.splice(4, 1)
+      
+      chartObject.data.datasets.forEach(dataset => {
+        //dataset.data.splice(9, 1)
+        dataset.data.splice(4, 1)
+      })
+      
+      return chartObject
+    }
+
+    function createChartObjectWithoutStartupTime() {
+      const chartObject = createChartObjectWithout5()
+      chartObject.options.title.text = "Problems 01 - 10 with average startup time subtracted"
+      const startupTimes = getStartupTimes()
+      chartObject.data.datasets.forEach(dataset => {
+        dataset.data = dataset.data.map(d => ({
+          x: d.x,
+          y: d.y - startupTimes[dataset.label],
+        }))
+      })
+
+      return chartObject
+
+      function getStartupTimes() {
+        // reuse barObject for prob00 as I am lazy and this is good enough
+        const helpObj = createBarObjectForProb("00", measurementOfProb00Lines, "")
+        return helpObj.data.datasets[0].data.reduce((acc, t, i) => {
+          const label = helpObj.data.labels[i]
+          acc[label] = t
+          return acc
+        }, {})
+      }
+    }
+  </script>
+</body>
+
+</html>

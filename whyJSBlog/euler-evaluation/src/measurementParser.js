@@ -27,7 +27,7 @@ export const parseProblem = (headingLineRegExpForProblem, lines) => {
 export const parseProblemsForLanguage = (headingRegExpBuilder, start, end, lines) => {
   const data = []
   for (let i = start; i <= end; i++) 
-    data.push(parseProblem(headingRegExpBuilder(i), lines))
+    data.push(parseProblem(headingRegExpBuilder(String(i).padStart(2, "0")), lines))
 
   return data.map((time, i) => ({x: i + 1, y: time}))
 }
