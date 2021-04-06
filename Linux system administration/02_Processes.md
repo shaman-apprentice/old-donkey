@@ -1,0 +1,4 @@
+- `pid`, `ppid`, `pgid`
+- setuid programs run not as user who started them, e.g. `passwd`
+- `ulimit -a` displays limits of processes running in shell like max 8102 open files
+- `fork` (clone own process), `exec` (load different program into self) -> fork and exec combi
