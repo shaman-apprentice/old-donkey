@@ -1,6 +1,8 @@
 ## Commands
 
-- `chmod`, `which`, `tail`, `head`
+- `grep -- "-x"`
+- `chmod`, `which`, `tail -f`, `head`
+- `jobs` shows bg processes (like `cmd &`), `fg` brings them into foreground
 - sed, find
 - `echo $$` contains pid of bash
 
@@ -10,7 +12,7 @@
 
 - less editor -> `/<search word` enter; `n` for next result
 - `man -k <keyword>`
-- `man [section] <page name>` 
+- `man [section] <page name>`
 
 Parentheses after name represent the section.
 
