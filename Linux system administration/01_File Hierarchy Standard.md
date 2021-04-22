@@ -3,6 +3,7 @@
 `/` must be able to boot the system, recover it, mount the rest.
 
 - No custom folders on root level
+- also see `man hier`
 - `/bin` (critical binaries), `/usr` (shared application data, binaries, etc), `/usr/bin`, `/sbin`
 - `/dev` (devices like storage, tty, stdin -> /proc/self/fd/0)
 - `/etc` (machine local configuration files), `/etc/systemd`, `/etc/init.d` (Contains startup and shut down scripts when using System V initialization.)
@@ -13,5 +14,5 @@
 
 ### Some fun
 
-- `du -xch -d 1 /` (`-x` excludes dev, proc, run and sys as they are pseudo-files systems / in other partition)
+- `du -xch -d 1 /` (disk usage: `-x` excludes dev, proc and sys as they are pseudo-files systems / in other partition)
 - `cat /proc/mounts`

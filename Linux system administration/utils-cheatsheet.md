@@ -1,3 +1,0 @@
-- `chmod`
-- tail, head, sed
-- `echo $$` contains pid of bash
