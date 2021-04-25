@@ -3,7 +3,6 @@
 - `grep -- "-x"`
 - `chmod`, `which`, `tail -f`, `head`
 - `jobs` shows bg processes (like `cmd &`), `fg` brings them into foreground
-- sed, find
 - `echo $$` contains pid of bash
 
 ## Man (manual pages)
