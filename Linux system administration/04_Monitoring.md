@@ -19,3 +19,7 @@
 
 - **VM** := Virtual memory, **VFS** := Virtual File System
 - I/O Scheduler are configured via _/sys/block/<device>/queue/scheduler_ and _/sys/block/<device>/queue/iosched._
+
+## Kernel messages
+
+- `dmesg`

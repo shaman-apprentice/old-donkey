@@ -9,7 +9,7 @@
 
 ### Sections
 
-- less editor -> `/<search word` enter; `n` for next result
+- less editor -> `/<search word>` enter; `n` for next result, `?<search word>` for backwards
 - `man -k <keyword>`
 - `man [section] <page name>`
 
