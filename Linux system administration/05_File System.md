@@ -65,4 +65,10 @@ Logical Partition spanned over multiple partitions / devices -> makes resizing s
 
 ![LVM](./assets/LVM.png)
 
-## RAID
+## RAID (Redundant Array of Independent Disks)
+
+- mirroring
+- stripping data over multiple disks -> performance
+- parity / fault tolerance
+- created via `$ sudo mdadm --create /dev/md0 --level=1 --raid-disks=2 /dev/sdbX /dev/sdcX` and melt into `/dev/mdX`
+- Can be combined with **LVM** (e.g. `/dev/sdbX` can be a LVM)
