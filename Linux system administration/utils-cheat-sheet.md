@@ -4,6 +4,7 @@
 - `chmod`, `which`, `tail -f`, `head`
 - `jobs` shows bg processes (like `cmd &`), `fg` brings them into foreground
 - `echo $$` contains pid of bash
+- `su` / `ctl d` for elevating / terminating super user
 
 ## Man (manual pages)
 
