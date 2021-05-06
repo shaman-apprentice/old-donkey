@@ -1,0 +1,4 @@
+- /etc/passwd (user entries), /etc/shadow (user pws), /etc/group.
+- PAM (Pluggable Authentication Modules): Standard lib for authentication (e.g. used by `su`) - Rule based:
+  - _type control module-path module-arguments_
+  - _auth sufficient pam_rootok.so_
