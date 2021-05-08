@@ -24,9 +24,26 @@
   - `/etc/sysctl.conf` can make some settings immutable at runtime
     - `sudo sysctl -p` applies all settings from it, what is part of boot as well -> permanent
 - **systemd**
-  - (Additional) init system, which handles and utilizes daemons
+
+  - init system, which handles and utilizes daemons
   - Settings in `/usr/lib/sysctl.d/` which can be supplanted through files in `/etc/sysctl.d.`
-  - can be controlled via `systemctl`
+  - can be controlled via `systemctl` and files in `/etc/systemd`, e.g:
+
+  ```bash
+  # /etc/systemd/system/fake.service
+  [Unit]
+  Description=fake
+  After=network.target
+
+  [Service]
+  ExecStart=/bin/bash -c '/bin/echo I am starting the fake2 service ; /bin/sleep 15 ; /bin/echo yolo'
+  ExecStop=/bin/echo I am stopping the fake2 service
+
+  [Install]
+  WantedBy=multi-user.target
+  ```
+
+  `sudo systemctl start fake.service` (enable/disable for permanent start/stop with boot)
 
 ## Modules
 

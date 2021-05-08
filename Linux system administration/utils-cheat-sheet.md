@@ -1,14 +1,12 @@
-## Commands
+## Commands / Tools
 
 - `grep -- "-x"`
-- `chmod`, `which`, `tail -f`, `head`
+- `which`, `tail -f`, `head`
 - `jobs` shows bg processes (like `cmd &`), `fg` brings them into foreground
 - `echo $$` contains pid of bash
-- `su` / `ctl d` for elevating / terminating super user
+- `setuid <name>` or `chmod +s <name>`-> execute file with permissions of owner instead of executer
 
 ## Man (manual pages)
-
-### Sections
 
 - less editor -> `/<search word>` enter; `n` for next result, `?<search word>` for backwards
 - `man -k <keyword>`
@@ -27,3 +25,7 @@ Parentheses after name represent the section.
 8   System administration commands (usually only for root)
 9   Kernel routines [Non standard]
 ```
+
+## Miscellaneous
+
+- **cgroup**: Groups processes manually or rule based (`/etc/cgrules.conf`). cgroup enables restrictions like _blkio.throttle_ or cpu usage
