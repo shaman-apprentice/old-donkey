@@ -26,17 +26,23 @@ Not all vfs are mounted (e.g `/proc` is but _pipefs_ isn't)
     - `sda2` := _sd_ device type, _a_ first hard drive, _2_ second partition
 - `lsblk` shows info about block devices (disks, partitions, loop, ...)
 - `blkid` wrapper of `libblkid` for working with block devices
+
+### Partitioning
+
 - `fdisk /dev/sda` lets you format / partition your disk menu driven (`sfdisk` for use in scripts)
-  - virtual device via file:
-    - `# dd if=/dev/zero of=loopbackfile.img bs=100M count=10` # creates 1GB file (dd := disk dump)
-    - `losetup -fP loopbackfile.img` # uses first free loop device to make given file a device file
-    - `losetup -a` shows all loop -> see there which one you got
-  - `mkfs.ext4 /dev/sda3` to make this partition to a filesystem
-  - `mkdir /mnt/<mountdir>`
-  - `mount -t tmpfs none /mnt/<mountdir>` # creates RAM fs with max 50% RAM capacity
-  - `mount` # shows all mounts
-  - `umount /mnt/<mountdir>`
-  - All lines in `/etc/fstab` are mounted at boot or through `mount -a`
+- virtual device via file:
+  - `# dd if=/dev/zero of=loopbackfile.img bs=100M count=10` # creates 1GB file (dd := disk dump)
+  - `losetup -fP loopbackfile.img` # uses first free loop device to make given file a device file
+  - `losetup -a` shows all loop -> see there which one you got
+
+### Mounting
+
+- `mkfs.ext4 /dev/sda3` to make this partition to a filesystem
+- `mkdir /mnt/<mountdir>`
+- `mount -t tmpfs none /mnt/<mountdir>` # creates RAM fs with max 50% RAM capacity
+- `mount` # shows all mounts
+- `umount /mnt/<mountdir>`
+- All lines in `/etc/fstab` are mounted at boot or through `mount -a`
 - `gparted` for gui-based
 
 ## Disk information

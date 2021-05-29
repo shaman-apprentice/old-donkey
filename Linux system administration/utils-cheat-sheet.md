@@ -1,8 +1,10 @@
 ## Commands / Tools
 
 - `grep -- "-x"`, `grep -r -e "a" -e "b"`
-- `which`, `tail -f`, `head`
+  - RegExp reminder:`[^ab]cd` match `.cd` but NOT `acd` and NOT `bcd`
 - `find . -name "*.txt" -exec grep -Hn foo {} \;`
+- `sed 's/<toBeReplaced>/<replace>/2` (replaces snd occurrence)
+- `which`, `tail -f`, `head`
 - `echo $$` contains pid of bash
 - `setuid <name>` or `chmod +s <name>`-> execute file with permissions of owner instead of executer
 - `jobs` shows bg processes (like `cmd &`), `fg` brings them into foreground
