@@ -1,0 +1,19 @@
+Types of Work (amended)
+Planned Work:
+	- Business Projects
+	- Internal Projects
+Unplanned Work (kind of technical / organisational / understanding customer / ... debt) - paid down by:
+	- more deployments -> shortens delta to debug and fastens feedback loop
+	- encourage to use 15-30% of time for payback
+	- improve operability and monitoring
+
+Three way of DevOps:
+1. System Thinking:
+	- "Workstations" create value chains; probably only last item of chain generates cash out
+	- Only Work at bottlenecks matters
+	- Reduce handovers and dependencies
+2. Many and short feedback loops
+	- plan, Do, Check
+	- improve time to market
+3. Experiment and meassure
+	- KPI's
