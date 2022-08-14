@@ -1,22 +1,22 @@
 # Seriously? Bad source code! Again?!
 
-When I dig into new projects for the first time, I always find code smells like classes with more than 500 lines of code, duplicated logic, untested features, logic deeply baked in into an UI component which easily could have been a pure (lovely testable) function. Is clean code complex rocket science, only mastered by very few in the 21st century? Or is clean code just not important? Let's reflect about this:
+When I dig into new projects for the first time, I always find code smells like classes with more than 500 lines of code, duplicated logic, untested features, logic deeply baked in into an UI component which easily could have been a pure lovely testable function. Is clean code complex rocket science, only mastered by very few in the 21st century? Or is clean code just not important? Let's reflect about this:
 
 ## What should good source code in the free market do?
 
 When we consider something as bad, it doesn't match our expectations. When I work with bad source code, my expectation to rapidly implement new features gets disappointed. This makes me feel the company is not earning as much money as it could, due to previous sloppy work.
 
-This leads me directly to the point, what **good source code in the free market should do: Its purpose is simply to earn as much money as possible.**
+This leads me directly to the point, **what good source code in the free market should do: Its purpose is simply to earn as much money as possible.**
 
-How does our source code earn money? Some company sells a product. The source code is, like a lot of other important stuff, part of the product. And in the end our customers and stakeholder have hopefully given us more money, than we have spent on salaries, licenses, marketing and other costs, so some money stays in our company.
+How does our source code earn money? Mostly some company sells a product. The source code is like a lot of other important stuff part of the product. And in the end our customers and stakeholder have hopefully given us more money, than we have spent on salaries, licenses, marketing, etc., so some money stays in our company.
 
 ![code2money.png](./code2money.png)
 
-But wait, so far there wasn't mentioned anything like clean code in this section. Is this stuff just not important?
+But wait, so far there wasn't anything about clean code in this section. Is this stuff just not important?
 
 ## Some thought experiments
 
-Let's have some simple thought experiments. In the following tables the numbers represent an abstract unit of earned money per release. The exact amount is not relevant but only their ratio.
+Let's have three simple thought experiments. In the following tables the numbers represent an abstract unit of earned money per release. The exact amount is not relevant but only their ratio.
 
 ### 1.
 
@@ -29,26 +29,33 @@ Assume we ship a new product. The first team does rapid prototyping and produces
 
 ### 2.
 
-But our product hopefully lives longer than one release. The second team can likely release new features on a regular basis. Thus increasing customers base and existing customers are willing to pay more. Both increases revenue steadily. But the first team must fix some bugs, new features take longer time. So, they are not able to ship as many new features.
+But our product hopefully lives longer than one release. The second team can likely release new features on a regular basis. Thus increasing customers base and existing customers are willing to pay more. Both increases revenue steadily. But the first team must fix some bugs, new features take longer time. So, they aren't able to ship as many new features.
 
-|                        | Release 1 | Release 2 | Release 3 | Release 4 | Release 5 | Total earned money |
-| :--------------------- | :-------: | :-------: | :-------: | :-------: | :-------: | :----------------: |
-| Team shi\*ty code      |     2     |     2     |     3     |     3     |     4     |         14         |
-| Team clean source code |     1     |     2     |     3     |     4     |     5     |         15         |
+|                   | Release 1 | Release 2 | Release 3 | Release 4 | Release 5 | Total earned money |
+| :---------------- | :-------: | :-------: | :-------: | :-------: | :-------: | :----------------: |
+| Team shi\*ty code |     2     |     2     |     3     |     3     |     4     |         14         |
+| Team clean code   |     1     |     2     |     3     |     4     |     5     |         15         |
 
 ### 3.
 
-Naturally we decide to be the second team. But after our first release there appears a similar product on the market. The competitor ships more features than us. Probably they don't give a f\*ck about clean source code. I surely don't want to be a developer in their team in 2 years, only having to fix bugs and spending ages for new simple features. Nevertheless, customers don't see the source code. They see all the new features of the competitor and we lose our customers.
+Naturally we decide to be the second team. But after our first release there appears a similar product on the market. We start to lose customers 🤯
 
-|                        | Release 1 | Release 2 | Release 3 | Release 4 | Release 5 | Total earned money |
-| :--------------------- | :-------: | :-------: | :-------: | :-------: | :-------: | :----------------: |
-| Team clean source code |     1     |     2     |     0     |    -1     |    -1     |         1          |
-| Competitor             |     -     |     ?     |     ?     |     ?     |     ?     |         ?          |
+|                 | Release 1 | Release 2 | Release 3 | Release 4 | Release 5 | Total earned money |
+| :-------------- | :-------: | :-------: | :-------: | :-------: | :-------: | :----------------: |
+| Team clean code |     1     |     2     |     0     |    -1     |    -1     |         1          |
+| Competitor      |     -     |     ?     |     ?     |     ?     |     ?     |         ?          |
 
-## TODO What is important
+Why could the competitor outperform us on the market?
 
-- Why competitor better?
-- Time limiting resource
-- Developer Happiness
+- Did he write cleaner code, allowing him to implement features faster?
+- Did he cut short on clean code for having more times for features? In that case he will probably have to fix a lot of bugs and will need ages for new features in the near future. Not unlikely, frustrated developers will start quitting as well. Nevertheless, for now he has beaten us and it is unclear, if customers will come back later. If we are still in the market at all then.
+- Or maybe they have a better DevOps culture, allowing their overall organization to perform more efficient.
+- Or maybe they have implemented less features but their features hit the market better.
+- Or maybe they have a bigger team, taking away our customers, but losing money for now.
+- Or maybe ...
 
-Looking at source code without context is meaningless. Clean code helps us to regularly ship new features over a long time. But the success of the company, which includes the success of our source code, depends on a lot of things. Therefore, we should not be upset about bad source code and not just improve the code quality. We should connect with our project manager, marketing, etc. and find out, how we can ensure the success of the company. Depending on the market situation this can mean to improve the code quality enabling a regular feature flow in the future. Or it can mean to implement features as hell, to catch up to a competitor. Or implement some user evaluation first, to better guess which features are needed. Or fix bugs as hell to prevent the acute danger of losing a key customer (while hopefully increasing code quality to banish them permanently). Or ...
+## Final thoughts
+
+Of course code quality is important as it helps to ship new features regularly. But overall I believe the limiting resource of a developer is time. We haven't enough time to optimize everything. E.g. instead of improving code quality implementing some kind of user evaluation to better guess which features are needed next, might be a better investment of our time. If we improve code quality reducing average feature cycle time from two to one weeks, we have increased future productivity about 50%. If we help to make every second instead of every fourth feature hit, we have increased productivity about 50% as well. In addition that also helps the code quality, as we have to maintain less features.
+
+**Meaning the existing bad source code might have been a reasonable trade off of a smart team. Regardless it is up to us to find benefitting trade offs now, whether or not the previous trade offs were smart.**
