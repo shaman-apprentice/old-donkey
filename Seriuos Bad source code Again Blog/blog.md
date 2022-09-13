@@ -56,6 +56,12 @@ Why could the competitor outperform us on the market?
 
 ## Final thoughts
 
-Of course code quality is important as it helps to ship new features regularly. But overall I believe the limiting resource of a developer is time. We haven't enough time to optimize everything. E.g. instead of improving code quality implementing some kind of user evaluation to better guess which features are needed next, might be a better investment of our time. If we improve code quality reducing average feature cycle time from two to one weeks, we have increased future productivity about 50%. If we help to make every second instead of every fourth feature hit, we have increased productivity about 50% as well. In addition that also helps the code quality, as we have to maintain less features.
+Software Development is complex. It is not pure math with a clear correct answer. There are a lot of building bricks you can invest into and it will never be clear what will be the exact outcome of which investment. So you will always have to make best effort trade offs.
 
-**Meaning the existing bad source code might have been a reasonable trade off of a smart team. Regardless it is up to us to find benefitting trade offs now, whether or not the previous trade offs were smart.**
+Code quality is an important building brick as it helps to ship new features regularly. But overall **I believe the limiting resource of a developer is time. We haven't enough time to invest into everything.** 
+
+  E.g. we could improve code quality reducing average feature cycle time from two to one weeks. That would increase future productivity about 50%.
+  
+  We could also introduce some user data evaluation. If the insights of those enables us to make every second instead of every fourth feature hit, we have increased productivity about 50% as well. In addition that also helps the code quality, as we have to maintain less features.
+
+So the existing bad source code might have been a reasonable trade off of a smart team. Regardless it is up to us to find benefitting trade offs now, whether or not the previous trade offs were smart.
