@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<head>
+  <title>index</title>
+  <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script src="chartjs/chartjs.bundle.min.js"></script>
+  <link rel="stylesheet" href="chartjs/chartjs.min.css" />
+  <style>
+    canvas {
+      display: inline-block !important;
+    }
+
+    body {
+      margin-bottom: 16px;
+    }
+  </style>
+</head>
+
+<body>
+  <canvas id="fstThoughtExperiment" width="400" height="400"></canvas>
+  <canvas id="sndThoughtExperiment" width="400" height="400"></canvas>
+  <canvas id="thrdThoughtExperiment" width="400" height="400"></canvas>
+
+  <script type="module">
+    import { fstThoughtExperiment } from "./src/fstThoughtExperiment.js"
+    import { sndThoughtExperiment } from "./src/sndThoughtExperiment.js"
+    import { thrdThoughtExperiment } from "./src/thrdThoughtExperiment.js"
+
+    new Chart(document.getElementById('fstThoughtExperiment'), fstThoughtExperiment)
+    new Chart(document.getElementById('sndThoughtExperiment'), sndThoughtExperiment)
+    new Chart(document.getElementById('thrdThoughtExperiment'), thrdThoughtExperiment)
+  </script>
+</body>
+
+</html>
