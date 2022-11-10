@@ -51,13 +51,12 @@ Why could the competitor take away market share from us?
 
 ## Some general thoughts
 
-Software development is complex. It is not pure mathematics with a clear correct answer. There are a lot of building bricks you can invest into and it will never be clear what the exact outcome of which investment will be. So you have to make best effort trade offs.
+So how should we react to the third scenario? There is no simple answer. We can invest in many different building blocks and it's often hard to say what the exact outcome of which investment will be. Unfortunately, **we haven't enough time to invest into everything**. E.g.: 
 
-Code quality is an important building block because it helps to deliver new features on a regular basis. But overall **I believe the limiting resource of a developer is time. We haven't enough time to invest into everything**. E.g: 
-- We could improve code quality reducing average feature cycle time from two to one week. That would increase future productivity by about 50%.
-- We could also introduce some user data evaluation. If the insights from that enables us to make every second instead of every fourth feature hit, we have increased productivity by about 50% as well. It also helps code quality, as we have fewer features to maintain.
+- We could improve code quality, reducing average feature cycle time from two to one week. That would increase future productivity by about 50%.
+- Or we could introduce some user data evaluation. If the insights from that enables us to make every second instead of every fourth feature hit, we have increased productivity by about 50% as well. It also helps code quality, as we have fewer features to maintain.
 
 
 ## Moral of this reflection
 
-The existing bad source code may have been a reasonable trade off by a smart team. A successful product depends on a lot of things. Clean code is one important building block, but there are many levers a developer can pull. It is an important part of a developer's job to decide how much of their limited times goes into clean code and how much into other important stuff like new features, refinements, trainings of colleagues, etc. 
+The existing bad source code may have been a reasonable trade off by a smart team. A successful product depends on a lot of things. Clean code is one important building block, but there are many levers a developer can pull. It is an important part of a developer's job to decide how much of their limited time goes into clean code and how much into other important stuff like new features, refinements, trainings of colleagues, etc. 
