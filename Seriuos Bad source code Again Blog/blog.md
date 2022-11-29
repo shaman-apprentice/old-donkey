@@ -12,7 +12,7 @@ When we consider something as bad, it doesn't meet our expectations. When I work
 
 This leads me directly to the point, **what good source code in the free market should do: Its purpose is simply to earn as much money as possible.**
 
-How does our source code earn money? Mostly some company sells a product. The source code is like a lot of other important stuff part of the product. In the end our customers and stakeholder have hopefully given us more money, than we have spent on salaries, licenses, marketing, etc., so some money stays in the company.
+How does our source code earn money? Mostly some company sells a product. The source code is like a lot of other important stuff part of the product. In the end customers and stakeholder have hopefully given more money, than was spent on salaries, licenses, marketing, etc., so some money stays in the company.
 
 ![code2money.png](./code2money.png)
 
