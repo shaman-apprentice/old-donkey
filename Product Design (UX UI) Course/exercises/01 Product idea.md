@@ -20,7 +20,7 @@ The goal is not exact science, but to provide a nice gadget. The overall user ex
 
 There seems to be no direct competitors yet. The closest I could find were genealogy portals for family tree research.
 
-| Product | Strength | Weaknesses | Opportunities | Threads
+| Product | Strength | Weaknesses | Opportunities | Threats
 | - | - | - | - | - |
 | [Forebears](https://forebears.io/)[^1] is a genealogy portal, which provides information for surnames. | It is easy accessible as webpage and ranked well in Google. It has a name distribution map and many random facts. | Layout is confusing and design is not very appealing. A lot of advertisement hides the real content. It is unclear why a user should register. | Add possibility to add user information and comments, so that it gets enriched by user content and users stay longer on the page and have a stronger user loyalty. | AI increasing in popularity as first research tool, decreasing page visits. |
 | ChatGPT | You can ask any questions about your family names and ask follow up questions. | Danger of mixed up facts. | Specially train a model for family names and advice in choosing a name. | Future legal requirements for AI might restrict training data, making the models worse. |

@@ -29,8 +29,6 @@ Concept -> Prototype -> Validate internally -> Test externally -> Learn from use
 
 Getting feedback is also aligning with team and stakeholder #TeamSpirit #ExpectationManagement and putting your work (partially) to a peace of reality, early #NoIvoryTower 
 
-> Nothing is more effective than walking over to a colleague, showing some work, discussing, sketching, exchanging ideas, understanding facial expressions and body language, and reaching a resolution on a thorny topic. (Jeff Gothelf)
-
 ## Competitive SWOT Analysis
 
 Analyse your product / company and your direct competitors (e.g. TikTok and Instagram) and indirect competitors (e.g. TikTok and LinkedIn).
@@ -43,3 +41,46 @@ Analyse your product / company and your direct competitors (e.g. TikTok and Inst
 - Idea of available market
 - Idea of potential solutions and your uniqueness #DontReinventTheWheel #BeDifferent 
 - Can be used as basis for strategy decisions
+
+## Minimum Viable Audience
+
+Minimum + Viable = Smallest possible audience you can serve and that can sustain your business
+
+Example: Community-driven, personalized study music discovery. Designed for busy college students looking for better ways to discover and share new music.
+
+## Empathy Map
+
+> it’s [Empathy] really not sympathy. I think instead it’s recognizing that no one believes what you believe, no one knows what you know and no one wants what you want. And if you can be okay with that as opposed to insisting that you are right and they are wrong (Seth Godin)
+
+Empathy map: (Think and feel, See, Hear, Say, Do Pains, Gains)
+
+- Understand broader influences in our user's live / Practice empathy for our users
+- Overview / reference / nice to share with team
+
+## Problem statement
+
+**Persona** needs to **User’s need** because **Insight**
+
+Don't add solutions to problem statement!
+
+## Journey Map
+
+![Journey Map](./assets/JourneyMap.png)
+
+## User Scenario
+
+Good as input for User Stories. Can be derived of User Journey. Should answer the following questions:
+
+- Who is the Persona?
+- What is their goal?
+- What is the start point?
+- What is the trigger/action?
+- What is the end point?
+
+### Example Scenario 1
+
+Tara is a marketing manager who wants to find a new book about marketing to help her advance in her career. She has been searching and comparing books online but feels overwhelmed by her options. She usually ends up giving up before buying.
+
+### Example Scenario 2
+
+Tara is learning about new marketing techniques but keeps getting bored and not finishing the book she is reading. She wants to duscuss her reading with others but doesn't know anyone else who has read it.
