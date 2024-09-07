@@ -17,6 +17,8 @@
 > 9. Innovation becomes predictable when “needs” are defined as the metrics customers use to measure success when getting the job done
 > [Tony Ulwick](https://jobs-to-be-done.com/the-5-tenets-of-jobs-to-be-done-theory-ba58c3a093c1)
 
+**A new product must be good enough, so that users "fire" their old way and "hire" your product.**
+
 ![Jobs to be done growth strategy matrix.png](JobsToBeDoneGrowthStrategyMatrix.png)
 
 ## Lean UX
