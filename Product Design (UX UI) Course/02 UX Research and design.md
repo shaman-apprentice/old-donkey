@@ -44,6 +44,28 @@ Analyse your product / company and your direct competitors (e.g. TikTok and Inst
 - Idea of potential solutions and your uniqueness #DontReinventTheWheel #BeDifferent 
 - Can be used as basis for strategy decisions
 
+## Surveys & User Interviews
+
+**Important for problem space analysis, validate your assumptions, be forced to sort and reflect about your views.**
+
+Phrasing is very important as it will impact answers. It may produce a 20% difference in agreement to a question. For example:
+
+- "The government should force you to pay higher taxes"
+- "The government should increase taxes"
+- "The government needs to increase taxes"
+
+Or "How would you rate the career of legendary outfielder Joe Dimaggio?" vs "How would you rate the career of baseball outfielder Joe Dimaggio?"
+
+### Funnel technique
+
+- Start with broad, easy to answer questions for "setting the mood"
+- Demographic questions last, as they are "boring"
+- Allow no answers, especially for demographic answers as users might not want to answer those. Partial information is better than none.
+
+### Keep it short
+
+> How long is too long? The sweet spot is to keep the survey to less than five minutes. This translates into about 15 questions. The average respondent is able to complete about 3 multiple choice questions per minute. An open-ended text response question counts for about three multiple choice questions depending, of course, on the difficulty of the question. While only a rule of thumb, this formula will accurately predict the limits of your survey. [[writing-survey-questions]](https://www.qualtrics.com/blog/)
+
 ## Minimum Viable Audience
 
 Minimum + Viable = Smallest possible audience you can serve and that can sustain your business
