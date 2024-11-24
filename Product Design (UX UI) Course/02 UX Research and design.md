@@ -11,7 +11,7 @@
 > 3. A Job-to-be-Done is stable over time. [Getting from A to B]
 > 4. A Job-to-be-Done is solution agnostic. [Not care if horse or car but fast and comfortable]
 > 5. Success comes from making the “job”, rather than the product or the customer, the unit of analysis.
-> 6. A deep understanding of the customer’s “job” makes marketing more effective and innovation far more > predictable.
+> 6. A deep understanding of the customer’s “job” makes marketing more effective and innovation far more predictable.
 > 7. People want products and services that will help them get a job done better and/or more cheaply
 > 8. People seek out products and services that enable them to get the entire job done on a single platform
 > 9. Innovation becomes predictable when “needs” are defined as the metrics customers use to measure success when getting the job done
@@ -29,7 +29,7 @@
 
 Concept -> Prototype -> Validate internally -> Test externally -> Learn from user behavior -> Iterate
 
-Getting feedback is also aligning with team and stakeholder #TeamSpirit #ExpectationManagement and putting your work (partially) to a peace of reality, early #NoIvoryTower 
+Getting feedback is also aligning with team and stakeholder (#TeamSpirit #ExpectationManagement) and putting your work (partially) to a peace of reality, early #NoIvoryTower 
 
 ## Competitive SWOT Analysis
 

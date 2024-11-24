@@ -1,0 +1,37 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram name="Page-1" id="sSXYBnYM5v1uYBLcrtkr">
+    <mxGraphModel dx="1576" dy="1536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NbFPQuNMTiih6UTvrpNB-3" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=0;notch=30;rounded=0;strokeColor=none;strokeWidth=1;fillColor=#F19001;fontFamily=Tahoma;fontSize=10;fontColor=#FFFFFF;gradientColor=#C23603;gradientDirection=east;" vertex="1" parent="1">
+          <mxGeometry x="310" y="60" width="1210" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="NbFPQuNMTiih6UTvrpNB-4" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;dashed=0;fontFamily=Helvetica;fontSize=150;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="340" y="60" width="140" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="NbFPQuNMTiih6UTvrpNB-5" value="" style="line;strokeWidth=4;direction=south;html=1;rounded=0;shadow=0;dashed=0;fillColor=none;gradientColor=#AD0002;fontFamily=Helvetica;fontSize=150;fontColor=#FFFFFF;align=right;strokeColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="491" y="70" width="10" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="NbFPQuNMTiih6UTvrpNB-8" value="" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=#c23603;fillColor=#F49001;gradientDirection=east;strokeColor=none;glass=0;strokeWidth=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="240" width="1210" height="770" as="geometry" />
+        </mxCell>
+        <mxCell id="NbFPQuNMTiih6UTvrpNB-6" value="&lt;h1 style=&quot;font-size: 24px;&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;u&gt;Problem statement&lt;/u&gt;&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;&quot; data-pm-slice=&quot;1 1 [&amp;quot;blockquote&amp;quot;,null]&quot;&gt;Couples getting married have to decide on their future surname by law. The decision can be an emotional challenging task due to personal values and societal expectations. This is yet another stressful challenge they have to overcome before the wedding and live with ever after.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=0;dashed=0;fontFamily=Helvetica;fontSize=24;fontColor=#FFFFFF;align=left;" vertex="1" parent="1">
+          <mxGeometry x="414" y="290" width="976" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="NbFPQuNMTiih6UTvrpNB-7" value="" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#FFFFFF;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.office.concepts.maintenance;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1415" y="100" width="70" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NbFPQuNMTiih6UTvrpNB-10" value="&lt;font size=&quot;1&quot; style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 80px;&quot;&gt;The Problem&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="549" y="100" width="670" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NbFPQuNMTiih6UTvrpNB-12" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial; color: rgb(255, 255, 255); font-size: 20px;&quot;&gt;&lt;sup&gt;&lt;b&gt;1&lt;/b&gt;&lt;/sup&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 20px;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;https://www.maximizemarketresearch.com/market-report/wedding-services-market/229647&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="417" y="884" width="970" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NbFPQuNMTiih6UTvrpNB-11" value="&lt;h1 style=&quot;font-size: 24px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;u&gt;Why do we care&lt;/u&gt;&lt;/span&gt;&lt;/h1&gt;&lt;h1 style=&quot;font-size: 24px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;Marriage is undoubtedly one of the biggest decisions in someone&#39;s live. It is connected with a lot of positive emotions like love, happiness and saftey. But there are probably also emotional insecurities, such as doubts, the fear of not being good enough or fear of making a decision for eternity.&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;&lt;div&gt;Helping with any kind of emotional insecurity, giving guidence for preventing a potential first conflict swelling beneath the surface emerge even before the wedding and lasting a lifetime, is motivation enough.&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;The overall world wide wedding service market is valued over 200 Billion US $, expected to further grow&lt;sup&gt;1&lt;/sup&gt;. Tackling this problem is a change to position a nieche product in this huge market.&amp;nbsp;&amp;nbsp;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=0;dashed=0;fontFamily=Helvetica;fontSize=24;fontColor=#FFFFFF;align=left;" vertex="1" parent="1">
+          <mxGeometry x="414" y="500" width="976" height="390" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
