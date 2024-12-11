@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/25.0.2 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="25.0.2">
   <diagram name="Page-1" id="sSXYBnYM5v1uYBLcrtkr">
-    <mxGraphModel dx="13827" dy="7973" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="10370" dy="5980" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1021,8 +1021,8 @@
         <mxCell id="nG45inw-rrM8TsJsWbPO-85" value="Thoughts" style="strokeColor=#BAC8D3;fillColor=#5d7f99;fontSize=19;strokeWidth=2;horizontal=0;fontFamily=Helvetica;html=1;labelBackgroundColor=none;fontColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="205" y="5371" width="39" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="nG45inw-rrM8TsJsWbPO-98" value="&lt;font style=&quot;font-size: 33px;&quot;&gt;How can we&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="342" y="6410" width="620" height="269" as="geometry" />
+        <mxCell id="nG45inw-rrM8TsJsWbPO-98" value="&lt;font style=&quot;font-size: 32px;&quot;&gt;jump on the positive feelings?&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="168" y="6240" width="542" height="150" as="geometry" />
         </mxCell>
         <mxCell id="nG45inw-rrM8TsJsWbPO-113" value="Friends" style="strokeColor=#BAC8D3;fillColor=#23445D;fontSize=24;strokeWidth=2;horizontal=0;fontFamily=Helvetica;html=1;fontColor=#FFFFFF;fontStyle=0" parent="1" vertex="1">
           <mxGeometry x="156.67000000000002" y="5483" width="50" height="300" as="geometry" />
@@ -1087,8 +1087,41 @@
         <mxCell id="PSIwwJ3AqxVykR7ZAE_S-102" value="&lt;font style=&quot;font-size: 33px;&quot;&gt;MVA&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="406" y="8430" width="620" height="269" as="geometry" />
         </mxCell>
-        <mxCell id="PSIwwJ3AqxVykR7ZAE_S-103" value="&lt;font style=&quot;font-size: 33px;&quot;&gt;User Scenarrioa?&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="401.5" y="8800" width="620" height="269" as="geometry" />
+        <mxCell id="PSIwwJ3AqxVykR7ZAE_S-104" value="&lt;ul&gt;&lt;li&gt;Collaborate with wedding planers&lt;/li&gt;&lt;li&gt;Share our ideas on social media&lt;/li&gt;&lt;li&gt;Get recommended by friends&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=32;align=left;" vertex="1" parent="1">
+          <mxGeometry x="867.34" y="6240" width="634.66" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="PSIwwJ3AqxVykR7ZAE_S-105" value="&lt;span style=&quot;font-size: 32px;&quot;&gt;create awareness of the implications of the choice of name?&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="168" y="6400" width="542" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="PSIwwJ3AqxVykR7ZAE_S-107" value="How might we" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=48;" vertex="1" parent="1">
+          <mxGeometry x="155" y="6160" width="415.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="PSIwwJ3AqxVykR7ZAE_S-108" value="&lt;ul&gt;&lt;li&gt;Share experiences from others&lt;/li&gt;&lt;li&gt;Reinforce empathy through though experiments&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=32;align=left;" vertex="1" parent="1">
+          <mxGeometry x="865" y="6400" width="634.66" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="PSIwwJ3AqxVykR7ZAE_S-109" value="&lt;font style=&quot;font-size: 32px;&quot;&gt;provide a structured way to think about the choice of name?&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="168" y="6560" width="542" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="PSIwwJ3AqxVykR7ZAE_S-110" value="&lt;ul&gt;&lt;li&gt;Provide a platform for sorting notes and comments&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=32;align=left;" vertex="1" parent="1">
+          <mxGeometry x="865" y="6560" width="634.66" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="PSIwwJ3AqxVykR7ZAE_S-111" value="&lt;div&gt;&lt;span style=&quot;font-size: 32px;&quot;&gt;provide a way to let family members and friends&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 32px; background-color: initial;&quot;&gt;reason and contribute to the choice of name?&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="167.34" y="6730" width="542" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="PSIwwJ3AqxVykR7ZAE_S-112" value="&lt;ul&gt;&lt;li&gt;Provide a platform for giving comments and inputs&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=32;align=left;" vertex="1" parent="1">
+          <mxGeometry x="864.34" y="6730" width="634.66" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="PSIwwJ3AqxVykR7ZAE_S-113" value="&lt;div&gt;&lt;span style=&quot;font-size: 32px;&quot;&gt;make a nice presentation or game out of the inputs from the previous sections?&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="167.34" y="6890" width="542" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="PSIwwJ3AqxVykR7ZAE_S-114" value="&lt;ul&gt;&lt;li&gt;Make the platform presentable and enjoyable to review&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=32;align=left;" vertex="1" parent="1">
+          <mxGeometry x="864.34" y="6890" width="634.66" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="PSIwwJ3AqxVykR7ZAE_S-115" value="&lt;span style=&quot;font-size: 32px;&quot;&gt;create understanding for everyone&#39;s emotions?&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="165" y="7050" width="542" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="PSIwwJ3AqxVykR7ZAE_S-116" value="&lt;ul&gt;&lt;li&gt;See four previous points&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=32;align=left;" vertex="1" parent="1">
+          <mxGeometry x="862" y="7050" width="634.66" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
