@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/25.0.2 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="25.0.2">
   <diagram name="Page-1" id="sSXYBnYM5v1uYBLcrtkr">
-    <mxGraphModel dx="3457" dy="1993" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2963" dy="1709" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -37,7 +37,7 @@
         <mxCell id="NbFPQuNMTiih6UTvrpNB-16" value="" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=#006600;fillColor=#00CC00;gradientDirection=east;strokeColor=none;glass=0;strokeWidth=0;" parent="1" vertex="1">
           <mxGeometry x="1681.25" y="7650" width="1560" height="830" as="geometry" />
         </mxCell>
-        <mxCell id="NbFPQuNMTiih6UTvrpNB-17" value="&lt;h1 style=&quot;font-size: 32px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 32px;&quot;&gt;There is no direct competitor addressing the given problem statement. So tackling it is a great opportunity!&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=0;spacingTop=0;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=0;dashed=0;fontFamily=Helvetica;fontSize=32;fontColor=#FFFFFF;align=left;fontStyle=1" parent="1" vertex="1">
+        <mxCell id="NbFPQuNMTiih6UTvrpNB-17" value="&lt;h1 style=&quot;font-size: 32px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 32px;&quot;&gt;There is no direct competitor addressing the elaborated problem statement. So tackling it is a great opportunity!&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=0;spacingTop=0;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=0;dashed=0;fontFamily=Helvetica;fontSize=32;fontColor=#FFFFFF;align=left;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="1757.75" y="8348" width="1326" height="120" as="geometry" />
         </mxCell>
         <mxCell id="NbFPQuNMTiih6UTvrpNB-19" value="&lt;span style=&quot;font-size: 80px;&quot;&gt;&lt;b&gt;Competitive Analysis&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;" parent="1" vertex="1">
@@ -82,7 +82,7 @@
             <mxRectangle width="282" height="161" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NbFPQuNMTiih6UTvrpNB-29" value="&lt;ul style=&quot;font-size: 16px;&quot;&gt;&lt;li style=&quot;font-size: 16px;&quot;&gt;Easy accesible as webpage&lt;/li&gt;&lt;li style=&quot;font-size: 16px;&quot;&gt;High ranked in Google&lt;/li&gt;&lt;li style=&quot;font-size: 16px;&quot;&gt;Provides a name distribution map&lt;/li&gt;&lt;li style=&quot;font-size: 16px;&quot;&gt;Provides further information to a name&lt;/li&gt;&lt;/ul&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;spacing=0;verticalAlign=top;" parent="NbFPQuNMTiih6UTvrpNB-27" vertex="1">
+        <mxCell id="NbFPQuNMTiih6UTvrpNB-29" value="&lt;ul style=&quot;font-size: 16px;&quot;&gt;&lt;li style=&quot;font-size: 16px;&quot;&gt;Easy accesible as webpage&lt;/li&gt;&lt;li style=&quot;font-size: 16px;&quot;&gt;High ranked in Google&lt;/li&gt;&lt;li style=&quot;font-size: 16px;&quot;&gt;Provides a name distribution map&lt;/li&gt;&lt;li style=&quot;font-size: 16px;&quot;&gt;Provides additional information to a name&lt;/li&gt;&lt;/ul&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;spacing=0;verticalAlign=top;" parent="NbFPQuNMTiih6UTvrpNB-27" vertex="1">
           <mxGeometry x="282" width="282" height="161" as="geometry">
             <mxRectangle width="282" height="161" as="alternateBounds" />
           </mxGeometry>
@@ -110,7 +110,7 @@
             <mxRectangle width="282" height="164" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NbFPQuNMTiih6UTvrpNB-33" value="&lt;ul style=&quot;font-size: 16px;&quot;&gt;&lt;li style=&quot;font-size: 16px;&quot;&gt;Generic questions about your surnames can be asked&lt;/li&gt;&lt;li style=&quot;font-size: 16px;&quot;&gt;Follow up questions can easily be asked in a personal conversation style&lt;/li&gt;&lt;/ul&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;verticalAlign=top;" parent="NbFPQuNMTiih6UTvrpNB-31" vertex="1">
+        <mxCell id="NbFPQuNMTiih6UTvrpNB-33" value="&lt;ul style=&quot;font-size: 16px;&quot;&gt;&lt;li style=&quot;font-size: 16px;&quot;&gt;Generic questions about your surnames can be asked&lt;/li&gt;&lt;li style=&quot;font-size: 16px;&quot;&gt;Follow up questions can easily be asked in a personal, conversational style&lt;/li&gt;&lt;/ul&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;verticalAlign=top;" parent="NbFPQuNMTiih6UTvrpNB-31" vertex="1">
           <mxGeometry x="282" width="282" height="164" as="geometry">
             <mxRectangle width="282" height="164" as="alternateBounds" />
           </mxGeometry>
@@ -165,7 +165,7 @@
           <mxGeometry x="1820.1699999999998" y="894" width="1560" height="180" as="geometry" />
         </mxCell>
         <mxCell id="NbFPQuNMTiih6UTvrpNB-55" value="&lt;span style=&quot;font-size: 80px;&quot;&gt;&lt;b&gt;User Research&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="2067.17" y="935" width="1120" height="100" as="geometry" />
+          <mxGeometry x="1995.25" y="934" width="1120" height="100" as="geometry" />
         </mxCell>
         <mxCell id="NbFPQuNMTiih6UTvrpNB-81" value="" style="sketch=0;html=1;aspect=fixed;strokeColor=none;shadow=0;fillColor=#FFFFFF;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;shape=mxgraph.gcp2.search;fontColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="3228.17" y="935" width="99" height="100" as="geometry" />
@@ -296,9 +296,6 @@
         <mxCell id="NbFPQuNMTiih6UTvrpNB-158" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;We are happy for our child&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="2082.25" y="2946.5" width="220" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NbFPQuNMTiih6UTvrpNB-159" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Wonder if his finance puts him under pressure to drop our family name?&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="2687.25" y="2966.5" width="269" height="110" as="geometry" />
-        </mxCell>
         <mxCell id="NbFPQuNMTiih6UTvrpNB-160" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Every couple we know have chosen the husband&#39;s family name at their wedding&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1862.25" y="3146.5" width="307" height="120" as="geometry" />
         </mxCell>
@@ -327,7 +324,7 @@
           <mxGeometry x="2339.75" y="2936.5" width="242.5" height="110" as="geometry" />
         </mxCell>
         <mxCell id="NbFPQuNMTiih6UTvrpNB-170" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;I hope she is really the right one.&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="2500.25" y="3176.5" width="220" height="60" as="geometry" />
+          <mxGeometry x="2388.25" y="3106.5" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NbFPQuNMTiih6UTvrpNB-171" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Will we always love each other?&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1070.75" y="3096.5" width="253" height="50" as="geometry" />
@@ -357,9 +354,9 @@
           <mxGeometry x="2082.25" y="3626.5" width="380" height="110" as="geometry" />
         </mxCell>
         <mxCell id="NbFPQuNMTiih6UTvrpNB-178" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;We are proud of having raised our child right, that he takes the responsibility of marriage&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="2312.25" y="3066.5" width="360" height="80" as="geometry" />
+          <mxGeometry x="2580.25" y="3001.5" width="360" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="NbFPQuNMTiih6UTvrpNB-179" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Congratulations - We are so happy for you&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="NbFPQuNMTiih6UTvrpNB-179" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Congratulations&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="2877.25" y="3136.5" width="279" height="80" as="geometry" />
         </mxCell>
         <mxCell id="NbFPQuNMTiih6UTvrpNB-180" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Did you know, that your boy is still going to the disco with his friends?&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
@@ -380,7 +377,7 @@
         <mxCell id="NbFPQuNMTiih6UTvrpNB-184" value="&lt;span style=&quot;font-size: 32px;&quot;&gt;&lt;b&gt;Gains&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1246.75" y="3776.5" width="310" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NbFPQuNMTiih6UTvrpNB-185" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;I don&#39;t want to hurt mny family&#39;s feeling through dropping our family name&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="NbFPQuNMTiih6UTvrpNB-185" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;I don&#39;t want to hurt my family&#39;s feeling through dropping our family name&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="360.75" y="3786.5" width="307" height="120" as="geometry" />
         </mxCell>
         <mxCell id="NbFPQuNMTiih6UTvrpNB-186" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;I don&#39;t want an emotional discussion about our new family name&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
@@ -416,7 +413,7 @@
         <mxCell id="NbFPQuNMTiih6UTvrpNB-198" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Emotional assurance&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="2556.75" y="3824.5" width="267" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="NbFPQuNMTiih6UTvrpNB-199" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Opportunity for contributing to the discussion of the family name&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="NbFPQuNMTiih6UTvrpNB-199" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Opportunity to contribute to the discussion of the family name&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="2870.25" y="3838.5" width="365" height="82" as="geometry" />
         </mxCell>
         <mxCell id="NbFPQuNMTiih6UTvrpNB-234" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -479,10 +476,10 @@
         <mxCell id="NbFPQuNMTiih6UTvrpNB-255" value="&lt;font style=&quot;font-size: 32px;&quot;&gt;&lt;b&gt;Say&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="3858.25" y="3426.5" width="142" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NbFPQuNMTiih6UTvrpNB-256" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;How can we help you with the wedding?&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="NbFPQuNMTiih6UTvrpNB-256" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;How can we help with the wedding?&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="3552.25" y="3626.5" width="380" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="NbFPQuNMTiih6UTvrpNB-258" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Congratulations - We are so happy for you&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="NbFPQuNMTiih6UTvrpNB-258" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Congratulations&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="4320" y="3216.5" width="279" height="80" as="geometry" />
         </mxCell>
         <mxCell id="NbFPQuNMTiih6UTvrpNB-260" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -512,7 +509,7 @@
         <mxCell id="NbFPQuNMTiih6UTvrpNB-267" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Nice, a wedding party!&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="4097.75" y="3046.5" width="269" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="NbFPQuNMTiih6UTvrpNB-268" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Every couple I know has chosen the husband&#39;s family name at their wedding&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="NbFPQuNMTiih6UTvrpNB-268" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Every couple we know has chosen the husband&#39;s family name at their wedding&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="3335.25" y="3136.5" width="307" height="120" as="geometry" />
         </mxCell>
         <mxCell id="NbFPQuNMTiih6UTvrpNB-269" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Almost none of our friends are getting married&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
@@ -615,14 +612,14 @@
         <mxCell id="nG45inw-rrM8TsJsWbPO-36" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1515.75" y="4056.5" width="500" height="480" as="geometry" />
         </mxCell>
-        <mxCell id="nG45inw-rrM8TsJsWbPO-37" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;USER PERSONA&lt;/font&gt;&lt;div style=&quot;font-size: 32px;&quot;&gt;&lt;font style=&quot;font-size: 32px;&quot;&gt;Thomas Müller&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;About&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;Thomas Müller is a successful business man. He has dropped out of his mathematical studies at the age of 21 and started his own software start-up instead. Today, he has 10 employees. He travels often for his international clients.&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;In his rare free time, he tries to spent as much time as possible with his family. He has met his wife at a business trip. They have a daughter of whom they are very&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;proud of. Their daughter will marry soon.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;He tries his best to stay athletic. But he almost never finds the time to go to the gym. You can see, that he has put on some kilos over the years.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Due to his growing kilos and the fact that he hasn&#39;t managed to complete his studies, he is sometimes a little insecure.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="nG45inw-rrM8TsJsWbPO-37" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;USER PERSONA&lt;/font&gt;&lt;div style=&quot;font-size: 32px;&quot;&gt;&lt;font style=&quot;font-size: 32px;&quot;&gt;Thomas Müller&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;About&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;Thomas Müller is a successful business man. He has dropped out of his mathematical studies at the age of 21 and started his own software start-up instead. Today, he has 10 employees. He travels often for his international clients.&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;In his rare free time, he tries to spent as much time as possible with his family. He has met his wife at a business trip. They have a daughter of whom they are very&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;proud. Their daughter will marry soon.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;He tries his best to stay athletic. But he almost never finds the time to go to the gym. You can see, that he has put on some kilos over the years.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Due to his growing kilos and the fact that he hasn&#39;t managed to complete his studies, he is sometimes a little insecure.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1525.75" y="4056.5" width="470" height="290" as="geometry" />
         </mxCell>
-        <mxCell id="nG45inw-rrM8TsJsWbPO-38" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;b style=&quot;background-color: initial; font-size: 18px;&quot;&gt;Goals&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;ul style=&quot;&quot;&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Wants to continue to grow with his company&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Wants to provide for his family&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1506.75" y="4386.5" width="251" height="140" as="geometry" />
+        <mxCell id="nG45inw-rrM8TsJsWbPO-38" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;b style=&quot;background-color: initial; font-size: 18px;&quot;&gt;Goals&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;ul style=&quot;&quot;&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Wants to continue to grow his company&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Wants to provide for his family&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1506.75" y="4386.5" width="223.25" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="nG45inw-rrM8TsJsWbPO-39" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;b style=&quot;background-color: initial; font-size: 18px;&quot;&gt;Pains&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;ul style=&quot;&quot;&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Besides he often works until very late, he has more business offers, than he can manage to accept&amp;nbsp;&lt;br&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Although his family comes first, he knows that they often fall short, as he works late&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1718.75" y="4386.5" width="277" height="100" as="geometry" />
+        <mxCell id="nG45inw-rrM8TsJsWbPO-39" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;b style=&quot;background-color: initial; font-size: 18px;&quot;&gt;Pains&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;ul style=&quot;&quot;&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Although, he often works until very late, he has more business offers, than he can manage to accept&amp;nbsp;&lt;br&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Although his family comes first, he knows that they often fall short, as he works late&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1718.75" y="4386.5" width="277" height="123.5" as="geometry" />
         </mxCell>
         <mxCell id="nG45inw-rrM8TsJsWbPO-40" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" parent="1" vertex="1">
           <mxGeometry x="1284.75" y="4304.5" width="210" height="130" as="geometry" />
@@ -943,7 +940,7 @@
         <mxCell id="PSIwwJ3AqxVykR7ZAE_S-4" value="" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=#c23603;fillColor=#F49001;gradientDirection=east;strokeColor=none;glass=0;strokeWidth=0;" parent="1" vertex="1">
           <mxGeometry x="1679.25" y="6420" width="1555" height="870" as="geometry" />
         </mxCell>
-        <mxCell id="PSIwwJ3AqxVykR7ZAE_S-5" value="Couples getting married have to decide on their future surname by law. Besides all the happiness, this can be an&amp;nbsp;emotional challenging task due to personal values and expectations of family. One of many challenges they have to overcome before the wedding and live with ever after." style="text;strokeColor=none;fillColor=none;spacing=0;spacingTop=0;overflow=hidden;rounded=0;shadow=0;dashed=0;fontFamily=Helvetica;fontSize=32;fontColor=#FFFFFF;align=left;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="PSIwwJ3AqxVykR7ZAE_S-5" value="Couples getting married have to decide on their future surname by law. Besides all the happiness, this can be an&amp;nbsp;emotional challenging task due to personal values and expectations from the family. That is one of many challenges they have to overcome before the wedding and live with ever after." style="text;strokeColor=none;fillColor=none;spacing=0;spacingTop=0;overflow=hidden;rounded=0;shadow=0;dashed=0;fontFamily=Helvetica;fontSize=32;fontColor=#FFFFFF;align=left;whiteSpace=wrap;html=1;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="1782.25" y="6460" width="1296" height="190" as="geometry" />
         </mxCell>
         <mxCell id="PSIwwJ3AqxVykR7ZAE_S-6" value="" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#FFFFFF;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.office.concepts.maintenance;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;align=left;" parent="1" vertex="1">
@@ -976,7 +973,7 @@
         <mxCell id="PSIwwJ3AqxVykR7ZAE_S-105" value="&lt;span style=&quot;font-size: 32px;&quot;&gt;create awareness of the implications of the choice of name?&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="1809.33" y="9021" width="542" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="PSIwwJ3AqxVykR7ZAE_S-108" value="&lt;ul&gt;&lt;li&gt;Share experiences from others&lt;/li&gt;&lt;li&gt;Reinforce empathy through though experiments&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=32;align=left;" parent="1" vertex="1">
+        <mxCell id="PSIwwJ3AqxVykR7ZAE_S-108" value="&lt;ul&gt;&lt;li&gt;Share experiences from others&lt;/li&gt;&lt;li&gt;Reinforce empathy through thought experiments&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=32;align=left;" parent="1" vertex="1">
           <mxGeometry x="2506.33" y="9021" width="634.66" height="150" as="geometry" />
         </mxCell>
         <mxCell id="PSIwwJ3AqxVykR7ZAE_S-109" value="&lt;font style=&quot;font-size: 32px;&quot;&gt;provide a structured way to think about the choice of name?&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
@@ -1090,11 +1087,11 @@
         <mxCell id="6lvv9UhYiCRnmY_UIxgv-54" value="&lt;ol&gt;&lt;li&gt;Find &lt;b&gt;one &lt;/b&gt;befriended couple, who wants to explore their future family name. Work out first version of platform and learn from the journey.&lt;/li&gt;&lt;li&gt;Find next&amp;nbsp; befriended couple, who wants to explore their future family name. Work out second version of platform and learn from the journey.&lt;/li&gt;&lt;li&gt;Iterate from there.&amp;nbsp;&lt;br&gt;&lt;br&gt;Key is to remember, that this is an &lt;b&gt;emotional topic&lt;/b&gt;. It is better to &lt;b&gt;really help one couple&lt;/b&gt;, than being somehow nice for 100 couples.&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=none;fillColor=none;spacing=0;spacingTop=0;overflow=hidden;rounded=0;shadow=0;dashed=0;fontFamily=Helvetica;fontSize=32;fontColor=#FFFFFF;align=left;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1759.95" y="10107" width="1296" height="403" as="geometry" />
         </mxCell>
-        <mxCell id="6lvv9UhYiCRnmY_UIxgv-55" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=0;notch=30;rounded=0;strokeColor=none;strokeWidth=1;fillColor=#7F00FF;fontFamily=Tahoma;fontSize=10;fontColor=#FFFFFF;gradientColor=#66B2FF;gradientDirection=east;" parent="1" vertex="1">
+        <mxCell id="6lvv9UhYiCRnmY_UIxgv-55" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=0;notch=30;rounded=0;strokeColor=none;strokeWidth=1;fillColor=#0066CC;fontFamily=Tahoma;fontSize=10;fontColor=#FFFFFF;gradientColor=#000066;gradientDirection=east;" parent="1" vertex="1">
           <mxGeometry x="1682.25" y="10873" width="1555.5" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="6lvv9UhYiCRnmY_UIxgv-56" value="" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=#66B2FF;fillColor=#7F00FF;gradientDirection=east;strokeColor=none;glass=0;strokeWidth=0;" parent="1" vertex="1">
-          <mxGeometry x="1681.5" y="11054" width="1555.75" height="1076" as="geometry" />
+        <mxCell id="6lvv9UhYiCRnmY_UIxgv-56" value="" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=#000066;fillColor=#0066CC;gradientDirection=east;strokeColor=none;glass=0;strokeWidth=0;" parent="1" vertex="1">
+          <mxGeometry x="1681.5" y="11054" width="1555.75" height="1086" as="geometry" />
         </mxCell>
         <mxCell id="6lvv9UhYiCRnmY_UIxgv-57" value="&lt;span style=&quot;font-size: 80px;&quot;&gt;&lt;b&gt;Call based on personal experience&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="1748.95" y="10913" width="1334.05" height="100" as="geometry" />
@@ -1114,32 +1111,32 @@
         <mxCell id="6lvv9UhYiCRnmY_UIxgv-64" value="&lt;div&gt;I was surprised by some comments regarding me dropping my born family name.&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;spacing=0;spacingTop=0;overflow=hidden;rounded=0;shadow=0;dashed=0;fontFamily=Helvetica;fontSize=32;fontColor=#FFFFFF;align=left;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1823.49" y="11193" width="1242.62" height="51.5" as="geometry" />
         </mxCell>
-        <mxCell id="6lvv9UhYiCRnmY_UIxgv-65" value="&lt;div&gt;I am pleasantly surprised, how many positive feedback I got accepting my wife&#39;s family name.&amp;nbsp;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;spacing=0;spacingTop=0;overflow=hidden;rounded=0;shadow=0;dashed=0;fontFamily=Helvetica;fontSize=32;fontColor=#FFFFFF;align=left;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1824.36" y="11273" width="1345.64" height="80" as="geometry" />
+        <mxCell id="6lvv9UhYiCRnmY_UIxgv-65" value="&lt;div&gt;I am pleasantly surprised, how much positive feedback we got for choosing my wife&#39;s family name.&amp;nbsp;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;spacing=0;spacingTop=0;overflow=hidden;rounded=0;shadow=0;dashed=0;fontFamily=Helvetica;fontSize=32;fontColor=#FFFFFF;align=left;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1825.43" y="11258" width="1264.57" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="6lvv9UhYiCRnmY_UIxgv-66" value="&lt;i&gt;&amp;nbsp;It gives me pause for thought, that positive feedback mostly came from women. I suspect that many women draw the short straw&amp;nbsp;when it comes to the choice of family name.&amp;nbsp;But I firmly believe that it should be independent of gender.&lt;/i&gt;" style="text;strokeColor=#FFFFFF;fillColor=none;spacing=0;spacingTop=8;overflow=hidden;rounded=0;shadow=0;dashed=1;fontFamily=Helvetica;fontSize=32;fontColor=#FFFFFF;align=left;whiteSpace=wrap;html=1;perimeterSpacing=7;spacingLeft=24;spacingRight=12;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="1750.99" y="11637" width="1350" height="143" as="geometry" />
+        <mxCell id="6lvv9UhYiCRnmY_UIxgv-66" value="&lt;i&gt;&amp;nbsp;It gives me pause for thought, that positive feedback mostly came from women. I suspect that many women draw the short straw&amp;nbsp;when it comes to the choice of family name.&amp;nbsp;But I firmly believe, that it should be independent of gender.&lt;/i&gt;" style="text;strokeColor=#FFFFFF;fillColor=none;spacing=0;spacingTop=8;overflow=hidden;rounded=0;shadow=0;dashed=1;fontFamily=Helvetica;fontSize=32;fontColor=#FFFFFF;align=left;whiteSpace=wrap;html=1;perimeterSpacing=7;spacingLeft=24;spacingRight=12;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1750.99" y="11642" width="1350" height="143" as="geometry" />
         </mxCell>
-        <mxCell id="6lvv9UhYiCRnmY_UIxgv-67" value="&lt;font face=&quot;Comic Sans MS&quot; style=&quot;font-size: 64px;&quot;&gt;&lt;b style=&quot;&quot;&gt;So lets increase awareness&lt;br&gt;for the choice of family name&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;b style=&quot;font-size: 64px; font-family: &amp;quot;Comic Sans MS&amp;quot;; background-color: initial;&quot;&gt;and make the world a better place.&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;spacing=0;spacingTop=0;overflow=hidden;rounded=0;shadow=0;dashed=0;fontFamily=Helvetica;fontSize=32;fontColor=#FFFFFF;align=center;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1729.62" y="11829" width="1350" height="242" as="geometry" />
+        <mxCell id="6lvv9UhYiCRnmY_UIxgv-67" value="&lt;font face=&quot;Comic Sans MS&quot; style=&quot;font-size: 64px;&quot;&gt;&lt;b style=&quot;&quot;&gt;So let&#39;s increase awareness&lt;br&gt;for the choice of family name&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;b style=&quot;font-size: 64px; font-family: &amp;quot;Comic Sans MS&amp;quot;; background-color: initial;&quot;&gt;and make the world a better place.&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;spacing=0;spacingTop=0;overflow=hidden;rounded=0;shadow=0;dashed=0;fontFamily=Helvetica;fontSize=32;fontColor=#FFFFFF;align=center;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1729.62" y="11833" width="1350" height="242" as="geometry" />
         </mxCell>
         <mxCell id="6lvv9UhYiCRnmY_UIxgv-68" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Has she put you under pressure to drop your born family name?&lt;/font&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" parent="1" vertex="1">
-          <mxGeometry x="1737.95" y="11370" width="219" height="110" as="geometry" />
+          <mxGeometry x="1737.95" y="11373" width="219" height="110" as="geometry" />
         </mxCell>
         <mxCell id="6lvv9UhYiCRnmY_UIxgv-69" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;One of the main reasons, why we aren&#39;t married, is that we couldn&#39;t decide on a family name&lt;/font&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" parent="1" vertex="1">
-          <mxGeometry x="2417.95" y="11470" width="219" height="110" as="geometry" />
+          <mxGeometry x="2417.95" y="11473" width="219" height="110" as="geometry" />
         </mxCell>
         <mxCell id="6lvv9UhYiCRnmY_UIxgv-70" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;I really hope, that my boyfriend is also willing to accept my family name&lt;/font&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" parent="1" vertex="1">
-          <mxGeometry x="2640.7" y="11370" width="219" height="110" as="geometry" />
+          <mxGeometry x="2640.7" y="11373" width="219" height="110" as="geometry" />
         </mxCell>
         <mxCell id="6lvv9UhYiCRnmY_UIxgv-71" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Back then, I wish my husband was also open to accepting my family name&lt;/font&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" parent="1" vertex="1">
-          <mxGeometry x="2189.7" y="11370" width="219" height="110" as="geometry" />
+          <mxGeometry x="2189.7" y="11373" width="219" height="110" as="geometry" />
         </mxCell>
         <mxCell id="6lvv9UhYiCRnmY_UIxgv-72" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;i&gt;&quot;***&quot; &lt;/i&gt;A loud sight in the audience, as the&amp;nbsp;registrar announces my new family name&amp;nbsp;&lt;/font&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" parent="1" vertex="1">
-          <mxGeometry x="1962.7" y="11470" width="219" height="110" as="geometry" />
+          <mxGeometry x="1962.7" y="11473" width="219" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="6lvv9UhYiCRnmY_UIxgv-73" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;It&#39;s so nice that a man takes the woman&#39;s name for once&lt;/font&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" parent="1" vertex="1">
-          <mxGeometry x="2868.95" y="11460" width="219" height="110" as="geometry" />
+        <mxCell id="6lvv9UhYiCRnmY_UIxgv-73" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;It&#39;s so nice, that a man takes the woman&#39;s name for once&lt;/font&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" parent="1" vertex="1">
+          <mxGeometry x="2868.95" y="11463" width="219" height="110" as="geometry" />
         </mxCell>
         <mxCell id="6lvv9UhYiCRnmY_UIxgv-74" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#FFFFFF;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.users.call_center_agent;" parent="1" vertex="1">
           <mxGeometry x="3102.62" y="10918" width="76" height="90" as="geometry" />
@@ -1211,7 +1208,7 @@
         <mxCell id="NbFPQuNMTiih6UTvrpNB-105" value="If my brother drops his name, our family name will sadly die out!" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontSize=32;fontStyle=2;spacingLeft=4;spacingBottom=0;spacingRight=4;" parent="1" vertex="1">
           <mxGeometry x="2398.5" y="1869" width="320" height="330" as="geometry" />
         </mxCell>
-        <mxCell id="NbFPQuNMTiih6UTvrpNB-106" value="Dropping my family name kind of feels of losing some of my family connection, but I am excited for the section of my life and the new name." style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontSize=32;fontStyle=2;spacingLeft=6;spacingBottom=0;spacingRight=6;" parent="1" vertex="1">
+        <mxCell id="NbFPQuNMTiih6UTvrpNB-106" value="Dropping my family name kind of feels like losing some of my family connection. But I am excited about the next section of my life and the new name." style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontSize=32;fontStyle=2;spacingLeft=6;spacingBottom=0;spacingRight=6;" parent="1" vertex="1">
           <mxGeometry x="2768.5" y="1869" width="530" height="330" as="geometry" />
         </mxCell>
         <mxCell id="NbFPQuNMTiih6UTvrpNB-116" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 64px; line-height: 120%;&quot;&gt;&lt;font style=&quot;font-size: 64px;&quot; color=&quot;#ffffff&quot;&gt;6 User Interviews&lt;/font&gt;&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px; font-size: 64px;&quot;&gt;&lt;ul style=&quot;font-size: 64px;&quot;&gt;&lt;/ul&gt;&lt;/h1&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacing=0;fontSize=64;" parent="1" vertex="1">
