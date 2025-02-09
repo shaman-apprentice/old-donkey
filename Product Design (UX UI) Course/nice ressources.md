@@ -35,3 +35,11 @@
 ### 10 Usability heuristics according to Nielsen
 
 https://chroma-x.de/en/insights/10-usability-heuristiken-nach-nielsen
+
+### The DESIGN of EVERYDAY THINGS
+
+- **Industrial design:** Optimize function for benefit of manufacturer and user.
+- **Interaction design:** Enhance people's understanding of what can be done, what is happening, and what has just occured. 
+- **Experience design:** Focus on the quality and enjoyment of the total experience.
+
+Even experts make errors: So we must design our machines on the assumption that people will make errors.
