@@ -43,3 +43,17 @@ https://chroma-x.de/en/insights/10-usability-heuristiken-nach-nielsen
 - **Experience design:** Focus on the quality and enjoyment of the total experience.
 
 Even experts make errors: So we must design our machines on the assumption that people will make errors.
+
+- Design is about communication; *human <-> human & human <-> machine*
+- Cognition and emotion are tightly intertwined; We like, what we recognize fast. We recognize fast, what we have trained. We train, what we like...
+
+### Product discoverability
+
+- affordances
+- signifiers
+- constraints
+- mappings
+- feedback
+- overall conceptual model: Explanation how it works. Doesn't have to be "physical correct". E.g. files, folder and icons on screen - physical storage works different, but explanation is still very useful. OS developer need different conceptual model. Relations between goal, controls and outcome is important.
+
+Good design must bring different skills, perspective and people together, which can even have competing gaols. Sells, support, manufactures, design, purchase, QA, developer, customer...
