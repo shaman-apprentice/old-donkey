@@ -49,11 +49,30 @@ Even experts make errors: So we must design our machines on the assumption that 
 
 ### Product discoverability
 
-- affordances
-- signifiers
+- affordances \
+               > feedforward
+- signifiers  /
 - constraints
 - mappings
-- feedback
-- overall conceptual model: Explanation how it works. Doesn't have to be "physical correct". E.g. files, folder and icons on screen - physical storage works different, but explanation is still very useful. OS developer need different conceptual model. Relations between goal, controls and outcome is important.
+- feedback - knowledge of results; is how expectations are resolved and is critical to learning and the development of skilled behavior.
+- overall conceptual model: **Perceived** explanation how it works. Doesn't have to be "physical correct". E.g. files, folder and icons on screen - physical storage works different, but explanation is still very useful. OS developer need different conceptual model. Relations between goal, controls and outcome is important.
 
 Good design must bring different skills, perspective and people together, which can even have competing gaols. Sells, support, manufactures, design, purchase, QA, developer, customer...
+
+**Emotions and cognition are tightly intertwined** - Both can be caused or influenced by each other. Three levels of processing:
+
+- Reflective
+- Behavioral (conditioned / learned)
+- Visceral
+
+*Attractive things "work better"*, because they reflective evaluation is more forgiving for them.
+
+### False blames
+
+> If the wrong key was pressed, the last few minutes' of work was irrevocably lost. [...]I had made the error frequently and my analysis indicated that this was very likely to be a frequent error among users. The designer's first response was: "Why did you make that error? Didn't you read the manual?" He proceeded to explain the different functions of the two keys...
+
+**Do not blame people when they fail to use your products properly. Take people's difficulties as signifiers of where the product can be improved!**
+
+Instead of speaking of **human error** let's talk about communication and interaction between machine and operator, leading to "communication error" instead.
+
+In the past, cost of displays etc. prevented many manufactures from providing useful feedback. Same goes for Software in terms of requirement analysis, developing and shipping. But tools have increased in quality and lowered in cost on both sides, hardware and software.
