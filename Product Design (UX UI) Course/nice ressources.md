@@ -39,7 +39,7 @@ https://chroma-x.de/en/insights/10-usability-heuristiken-nach-nielsen
 ### The DESIGN of EVERYDAY THINGS
 
 - **Industrial design:** Optimize function for benefit of manufacturer and user.
-- **Interaction design:** Enhance people's understanding of what can be done, what is happening, and what has just occured. 
+- **Interaction design:** Enhance people's understanding of what can be done, what is happening, and what has just occurred. 
 - **Experience design:** Focus on the quality and enjoyment of the total experience.
 
 Even experts make errors: So we must design our machines on the assumption that people will make errors.
@@ -51,7 +51,7 @@ Even experts make errors: So we must design our machines on the assumption that 
 
 - affordances \
                > feedforward
-- signifiers  /
+- signifiers  / (aka knowledge in the world)
 - constraints
 - mappings
 - feedback - knowledge of results; is how expectations are resolved and is critical to learning and the development of skilled behavior.
@@ -76,3 +76,9 @@ Good design must bring different skills, perspective and people together, which 
 Instead of speaking of **human error** let's talk about communication and interaction between machine and operator, leading to "communication error" instead.
 
 In the past, cost of displays etc. prevented many manufactures from providing useful feedback. Same goes for Software in terms of requirement analysis, developing and shipping. But tools have increased in quality and lowered in cost on both sides, hardware and software.
+
+### Knowledge in the Head and in the World
+
+Mapping / conceptual model depends on education and social conventions. E.g.:
+- Time left to right, or right to left is coupled to reading direction
+- Scroll: Moving the window (like in traditional PC) or the text (like in smartphones)? Should PC adjust to newly more prominent smartphones?
