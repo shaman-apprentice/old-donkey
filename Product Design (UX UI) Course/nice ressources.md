@@ -69,7 +69,7 @@ Good design must bring different skills, perspective and people together, which 
 
 ### False blames
 
-> If the wrong key was pressed, the last few minutes' of work was irrevocably lost. [...]I had made the error frequently and my analysis indicated that this was very likely to be a frequent error among users. The designer's first response was: "Why did you make that error? Didn't you read the manual?" He proceeded to explain the different functions of the two keys...
+> If the wrong key was pressed, the last few minutes' of work was irrevocably lost. [...] I had made the error frequently and my analysis indicated that this was very likely to be a frequent error among users. The designer's first response was: "Why did you make that error? Didn't you read the manual?" He proceeded to explain the different functions of the two keys...
 
 **Do not blame people when they fail to use your products properly. Take people's difficulties as signifiers of where the product can be improved!**
 
@@ -82,3 +82,29 @@ In the past, cost of displays etc. prevented many manufactures from providing us
 Mapping / conceptual model depends on education and social conventions. E.g.:
 - Time left to right, or right to left is coupled to reading direction
 - Scroll: Moving the window (like in traditional PC) or the text (like in smartphones)? Should PC adjust to newly more prominent smartphones?
+
+People only remember signifier needed for differentiating their task (e.g. detect real one cent coin between similar fake versions)
+
+> The unaided mind is surprisingly limited. It is things that make us smart.
+
+### Human Centered Design (HCD)
+
+Improvement is a technical and social problem (admitting errors, so we can learn from them). It can be discouraged by laws or disrespect.
+
+> A brilliant solution to the wrong problem can be worse than no solution at all.
+
+Where does the real problem comes from? Reality is complex with many factors; it needs iterative research.
+
+> Effective design needs to satisfy a large number of constraints and concerns, including shape and form, cost and efficiency, reliability and effectiveness, understandability and usability, the pleasure of the appearance, the pride of ownership, and the joy of actual use. HCD is a procedure for addressing these requirements, but with an emphasis on two things: solving the right problem, and doing so in a way that meets human needs and capabilities.
+
+ ### Standards
+
+ Standards tame complexity. E.g. clock, which goes counterclockwise and has 9 at top.
+
+ Standardize too early -> Bad, inefficient standard
+ Standardize too late -> Everybody already uses something and adapting is too much effort, too expensive, ...
+
+ ### As the world changes, what stys the same?
+
+ > the principles of discoverability, of feedback, and of the power of affordances and signifiers, mapping, and conceptual models will always hold.
+ 
