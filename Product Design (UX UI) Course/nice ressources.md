@@ -104,7 +104,7 @@ Where does the real problem comes from? Reality is complex with many factors; it
  Standardize too early -> Bad, inefficient standard
  Standardize too late -> Everybody already uses something and adapting is too much effort, too expensive, ...
 
- ### As the world changes, what stys the same?
+ ### As the world changes, what stays the same?
 
  > the principles of discoverability, of feedback, and of the power of affordances and signifiers, mapping, and conceptual models will always hold.
  
